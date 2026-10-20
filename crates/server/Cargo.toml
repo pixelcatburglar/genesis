@@ -1,0 +1,24 @@
+[package]
+name = "server"
+description = "Genesis: a server for the EVE Online build-1000 (2003) client"
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "genesis"
+path = "src/main.rs"
+
+[dependencies]
+marshal.workspace = true
+proto.workspace = true
+anyhow.workspace = true
+futures.workspace = true
+tokio.workspace = true
+tokio-util.workspace = true
+tokio-postgres.workspace = true
+deadpool-postgres.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
+crc32fast = "1"
+serde_json = "1"

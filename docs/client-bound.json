@@ -1,0 +1,452 @@
+{
+ "aggressionMgr": {
+  "ConsiderObject": [
+   "parklife/consider.py:127"
+  ],
+  "has_key": [
+   "parklife/consider.py:131",
+   "parklife/consider.py:135",
+   "parklife/consider.py:139",
+   "parklife/consider.py:145"
+  ]
+ },
+ "beyonce": {
+  "ConeScan": [
+   "ui/inflight/scanner.py:235"
+  ],
+  "Dock": [
+   "environment/actions/actions.py:669",
+   "environment/actions/actions.py:709"
+  ],
+  "FollowBall": [
+   "parklife/autopilot.py:235",
+   "ui/inflight/navigation.py:915",
+   "ui/menusvc.py:625"
+  ],
+  "GangRegroup": [
+   "ui/menusvc.py:601"
+  ],
+  "GangWarp": [
+   "ui/menusvc.py:613"
+  ],
+  "GetRelativity": [
+   "remote/michelle.py:255"
+  ],
+  "GotoBookmark": [
+   "ui/shared/neocom/bookmarks.py:1055"
+  ],
+  "GotoDirection": [
+   "ui/inflight/navigation.py:361",
+   "ui/inflight/shipui.py:1963"
+  ],
+  "Orbit": [
+   "ui/inflight/navigation.py:927",
+   "ui/menusvc.py:637"
+  ],
+  "SetSpeedFraction": [
+   "parklife/autopilot.py:227",
+   "ui/commandsvc.py:525",
+   "ui/commandsvc.py:543",
+   "ui/inflight/shipui.py:1643"
+  ],
+  "SphereScan": [
+   "ui/inflight/scanner.py:323"
+  ],
+  "StargateJump": [
+   "parklife/autopilot.py:213",
+   "ui/inflight/navigation.py:1081",
+   "ui/menusvc.py:873"
+  ],
+  "Stop": [
+   "ui/commandsvc.py:557",
+   "ui/inflight/navigation.py:939",
+   "ui/inflight/shipui.py:1633",
+   "ui/inflight/shipui.py:1705"
+  ],
+  "TurboDock": [
+   "environment/actions/actions.py:665",
+   "environment/actions/actions.py:705"
+  ],
+  "WarpToBookmark": [
+   "ui/shared/neocom/bookmarks.py:1065"
+  ],
+  "WarpToItem": [
+   "parklife/autopilot.py:245",
+   "ui/inflight/navigation.py:1027",
+   "ui/inflight/navigation.py:967",
+   "ui/inflight/navigation.py:985",
+   "ui/menusvc.py:667",
+   "ui/menusvc.py:825"
+  ]
+ },
+ "broker": {
+  "AddRuleForClient": [
+   "ui/station/brokers/base_brokers.py:387"
+  ],
+  "GetBrokersAtStation": [
+   "ui/station/brokers/base_brokers.py:655",
+   "ui/station/brokers/base_brokers.py:913"
+  ],
+  "GetBrokersForClient": [
+   "ui/station/brokers/base_brokers.py:377",
+   "ui/station/brokers/base_brokers.py:399",
+   "ui/station/brokers/base_brokers.py:427",
+   "ui/station/brokers/base_brokers.py:447",
+   "ui/station/brokers/base_brokers.py:471",
+   "ui/station/brokers/base_brokers.py:545",
+   "ui/station/brokers/base_brokers.py:583",
+   "ui/station/brokers/base_brokers.py:617"
+  ],
+  "GetRulesForClient": [
+   "ui/station/brokers/base_brokers.py:591"
+  ],
+  "IsCharWithBroker": [
+   "ui/station/brokers/base_brokers.py:699"
+  ],
+  "RemoveRuleForClient": [
+   "ui/station/brokers/base_brokers.py:319"
+  ],
+  "Resign": [
+   "ui/station/brokers/base_brokers.py:455"
+  ],
+  "Signup": [
+   "ui/station/brokers/base_brokers.py:433"
+  ]
+ },
+ "corpStationMgr": {
+  "AreAnyOfficesAvailableForRenting": [
+   "ui/station/lobby.py:265"
+  ],
+  "CancelRentOfFactorySlot": [
+   "ui/station/facilities/facility.py:1011"
+  ],
+  "GetLogonData": [
+   "ui/shared/neocom/corporation/base_corporation.py:119"
+  ],
+  "GetQuoteForRentingAnOffice": [
+   "ui/station/lobby.py:625"
+  ],
+  "GetRentableItems": [
+   "ui/station/stationmanagement/base_stationmanagement.py:159"
+  ],
+  "GetStationDetails": [
+   "ui/station/stationmanagement/base_stationmanagement.py:61"
+  ],
+  "GetStationManagementTaskModifiers": [
+   "ui/station/stationmanagement/base_stationmanagement.py:133"
+  ],
+  "GetStationManagementTasks": [
+   "ui/station/stationmanagement/base_stationmanagement.py:47"
+  ],
+  "GetTaskRule": [
+   "ui/station/stationmanagement/base_stationmanagement.py:109"
+  ],
+  "MoveCorpHQHere": [
+   "ui/station/lobby.py:617"
+  ],
+  "RentOffice": [
+   "ui/station/lobby.py:629"
+  ],
+  "UpdateRentableItem": [
+   "ui/station/stationmanagement/base_stationmanagement.py:257"
+  ],
+  "UpdateStationDetails": [
+   "ui/station/stationmanagement/base_stationmanagement.py:271"
+  ],
+  "UpdateStationManagementTaskModifier": [
+   "ui/station/stationmanagement/base_stationmanagement.py:247"
+  ],
+  "UpdateTaskRule": [
+   "ui/station/stationmanagement/base_stationmanagement.py:237"
+  ]
+ },
+ "dogmaIM": {
+  "Activate": [
+   "environment/godma.py:1359"
+  ],
+  "AddTarget": [
+   "parklife/targetMgr.py:619"
+  ],
+  "CharGetInfo": [
+   "environment/godma.py:1469"
+  ],
+  "ClearTargets": [
+   "parklife/targetMgr.py:665"
+  ],
+  "Deactivate": [
+   "environment/godma.py:1367"
+  ],
+  "GetTargeters": [
+   "environment/godma.py:1781"
+  ],
+  "GetTargets": [
+   "environment/godma.py:1775",
+   "parklife/targetMgr.py:511"
+  ],
+  "ItemGetInfo": [
+   "environment/godma.py:1311",
+   "environment/godma.py:1339",
+   "environment/godma.py:759"
+  ],
+  "RemoveTarget": [
+   "parklife/targetMgr.py:657"
+  ],
+  "ShipGetInfo": [
+   "environment/godma.py:1453"
+  ]
+ },
+ "entity": {
+  "CmdAttack": [
+   "ui/inflight/navigation.py:759",
+   "ui/menusvc.py:1077"
+  ],
+  "CmdMine": [
+   "ui/inflight/navigation.py:777",
+   "ui/menusvc.py:1095"
+  ],
+  "CmdMineRepeatedly": [
+   "ui/inflight/navigation.py:795",
+   "ui/menusvc.py:1113"
+  ],
+  "CmdReturnHome": [
+   "ui/inflight/navigation.py:807",
+   "ui/menusvc.py:1125"
+  ]
+ },
+ "factory": {
+  "EjectItemInSlot": [
+   "ui/station/facilities/facility.py:1565",
+   "ui/station/facilities/facility.py:1575"
+  ],
+  "GetFactorySlot": [
+   "ui/station/facilities/facility.py:393",
+   "ui/station/facilities/facility.py:417",
+   "ui/station/facilities/facility.py:989"
+  ],
+  "GetFactoryStatus": [
+   "ui/station/facilities/facility.py:671"
+  ],
+  "RegisterForSlotStateChanges": [
+   "ui/station/facilities/facility.py:245"
+  ],
+  "UnregisterForSlotStateChanges": [
+   "ui/station/facilities/facility.py:123"
+  ]
+ },
+ "invbroker": {
+  "AssembleCargoContainer": [
+   "ui/deco/item.py:603"
+  ],
+  "AssembleConstructionPlatform": [
+   "ui/deco/item.py:611"
+  ],
+  "AtmDeposit": [
+   "ui/shared/neocom/wallet.py:793"
+  ],
+  "AtmWithdraw": [
+   "ui/shared/neocom/wallet.py:733"
+  ]
+ },
+ "inventory": {
+  "Add": [
+   "ui/deco/container.py:455",
+   "ui/deco/container.py:459",
+   "ui/deco/item.py:991",
+   "ui/inflight/shipmodulebutton.py:1061",
+   "ui/inflight/shipmodulebutton.py:1181",
+   "ui/shared/container.py:159",
+   "ui/shared/container.py:163",
+   "ui/station/facilities/facility.py:1521",
+   "ui/station/hangar.py:111",
+   "ui/station/hangar.py:59"
+  ],
+  "BreakPlasticWrap": [
+   "ui/deco/item.py:537"
+  ],
+  "Build": [
+   "ui/inflight/navigation.py:1205",
+   "ui/inflight/navigation.py:1209",
+   "ui/menusvc.py:729",
+   "ui/menusvc.py:733"
+  ],
+  "GetCapacity": [
+   "ui/deco/chargescontainer.py:219",
+   "ui/deco/container.py:509",
+   "ui/deco/container.py:513",
+   "ui/deco/item.py:523",
+   "ui/shared/container.py:195",
+   "ui/shared/infosvc.py:1959",
+   "ui/station/fitting/base_fitting.py:605"
+  ],
+  "GetHangarOwnerIDs": [
+   "ui/station/hangar.py:217"
+  ],
+  "GetItem": [
+   "sys/sessions.py:4223"
+  ],
+  "List": [
+   "ui/deco/container.py:499",
+   "ui/deco/item.py:575",
+   "ui/shared/container.py:1001",
+   "ui/shared/container.py:103",
+   "ui/shared/container.py:107",
+   "ui/shared/container.py:95",
+   "ui/shared/neocom/assetsinfo.py:459",
+   "ui/shared/neocom/assetsinfo.py:633",
+   "ui/shared/neocom/corporation/base_corporation.py:221",
+   "ui/station/base.py:1455",
+   "ui/station/base.py:411",
+   "ui/station/facilities/facility.py:1123",
+   "ui/station/hangar.py:263",
+   "ui/station/lobby.py:639",
+   "ui/station/market/base_market.py:1621",
+   "ui/station/market/base_market.py:1629",
+   "ui/station/market/base_market.py:1645",
+   "ui/station/market/base_market.py:1649",
+   "ui/station/market/base_market.py:1655",
+   "ui/station/market/base_market.py:451",
+   "ui/station/market/base_market.py:521",
+   "ui/station/market/base_market.py:703",
+   "ui/station/market/marketentry.py:147",
+   "ui/station/missions/base_missions.py:669",
+   "ui/station/missions/missionentry.py:165",
+   "ui/station/navigation.py:97",
+   "ui/station/repairshop/base_repairshop.py:95",
+   "ui/station/reprocessingplant/base_reprocessingplant.py:203",
+   "ui/windowsvc.py:1067"
+  ],
+  "ListCargo": [
+   "ui/inflight/shipmodulebutton.py:1107",
+   "ui/shared/cargoview.py:37"
+  ],
+  "MergeItems": [
+   "ui/shared/container.py:177"
+  ],
+  "ReplaceCharges": [
+   "ui/inflight/shipmodulebutton.py:1203"
+  ],
+  "SelectItems": [
+   "sys/sessions.py:4051"
+  ],
+  "SetPassword": [
+   "ui/deco/item.py:591"
+  ],
+  "SetPassword2": [
+   "ui/deco/item.py:595"
+  ],
+  "TakeOutTrash": [
+   "ui/deco/item.py:679"
+  ],
+  "update": [
+   "sys/sessions.py:4225"
+  ]
+ },
+ "market": {
+  "CharPlaceOrder": [
+   "ui/station/market/quickbuysell.py:549"
+  ],
+  "CharPlaceRemoteBid": [
+   "ui/station/market/quickbuysell.py:541"
+  ],
+  "CorpPlaceOrder": [
+   "ui/station/market/quickbuysell.py:553"
+  ],
+  "GetGroupQuote": [
+   "ui/station/market/marketquote.py:257"
+  ],
+  "GetGroupQuotes": [
+   "ui/station/market/marketquote.py:281"
+  ],
+  "GetGroupsQuotes": [
+   "ui/station/market/marketquote.py:269"
+  ],
+  "GetOrders": [
+   "ui/station/market/marketquote.py:145",
+   "ui/station/market/marketquote.py:249"
+  ],
+  "GetQuote": [
+   "ui/station/market/marketquote.py:127",
+   "ui/station/market/marketquote.py:219",
+   "ui/station/market/marketquote.py:223",
+   "ui/station/market/marketquote.py:227"
+  ]
+ },
+ "missionMgr": {
+  "CreateCourierMission": [
+   "ui/station/missions/base_missions.py:441"
+  ],
+  "GetCourierOptions": [
+   "ui/station/missions/base_missions.py:639",
+   "ui/station/missions/base_missions.py:787"
+  ]
+ },
+ "ship": {
+  "AssembleShip": [
+   "ui/deco/item.py:787"
+  ],
+  "Board": [
+   "ui/inflight/navigation.py:891",
+   "ui/inflight/navigation.py:903",
+   "ui/menusvc.py:979",
+   "ui/menusvc.py:991",
+   "ui/shared/neocom/neocom.py:689",
+   "ui/station/base.py:1489",
+   "ui/station/base.py:595"
+  ],
+  "Drop": [
+   "ui/deco/item.py:687"
+  ],
+  "Eject": [
+   "ui/inflight/navigation.py:867",
+   "ui/menusvc.py:955",
+   "ui/shared/neocom/neocom.py:687",
+   "ui/station/base.py:593"
+  ],
+  "Evacuate": [
+   "ui/inflight/navigation.py:879",
+   "ui/menusvc.py:967"
+  ],
+  "Jettison": [
+   "ui/deco/item.py:671",
+   "ui/inflight/navigation.py:843",
+   "ui/menusvc.py:1003"
+  ],
+  "Scoop": [
+   "ui/inflight/navigation.py:819",
+   "ui/menusvc.py:1047"
+  ],
+  "ScoopDrone": [
+   "ui/inflight/navigation.py:831",
+   "ui/menusvc.py:1059"
+  ],
+  "SelfDestruct": [
+   "ui/inflight/navigation.py:855",
+   "ui/menusvc.py:1015"
+  ],
+  "Undock": [
+   "parklife/autopilot.py:169",
+   "ui/station/base.py:1553"
+  ]
+ },
+ "skillMgr": {
+  "CharAddBooster": [
+   "ui/deco/item.py:637"
+  ],
+  "CharAddImplant": [
+   "ui/deco/item.py:629"
+  ],
+  "CharGetSkills": [
+   "ui/station/factories/base_factories.py:49",
+   "ui/station/researchfacility/base_researchfacility.py:49"
+  ],
+  "CharStartTrainingSkill": [
+   "ui/deco/item.py:723"
+  ],
+  "GetEndOfTraining": [
+   "environment/godma.py:2025"
+  ],
+  "RemoveImplantFromCharacter": [
+   "ui/shared/neocom/charactersheet.py:487"
+  ]
+ }
+}

@@ -1,0 +1,258 @@
+[
+ {
+  "name": "id",
+  "vartype": 1,
+  "offset": 8,
+  "size": 4,
+  "doc": "id of ball",
+  "flags": 17
+ },
+ {
+  "name": "mass",
+  "vartype": 2,
+  "offset": 12,
+  "size": 4,
+  "doc": "Mass of ball (kg)",
+  "flags": 23
+ },
+ {
+  "name": "radius",
+  "vartype": 2,
+  "offset": 16,
+  "size": 4,
+  "doc": "Radius of ball (m)",
+  "flags": 23
+ },
+ {
+  "name": "maxVelocity",
+  "vartype": 2,
+  "offset": 20,
+  "size": 4,
+  "doc": "Maximum velocity of ball (m/s)",
+  "flags": 23
+ },
+ {
+  "name": "isFree",
+  "vartype": 4,
+  "offset": 24,
+  "size": 1,
+  "doc": "True if ball is free to move",
+  "flags": 23
+ },
+ {
+  "name": "isGlobal",
+  "vartype": 4,
+  "offset": 25,
+  "size": 1,
+  "doc": "True if ball should be visible from all",
+  "flags": 23
+ },
+ {
+  "name": "isMassive",
+  "vartype": 4,
+  "offset": 26,
+  "size": 1,
+  "doc": "True if ball is solid",
+  "flags": 23
+ },
+ {
+  "name": "isInteractive",
+  "vartype": 4,
+  "offset": 27,
+  "size": 1,
+  "doc": "True if ball is interactive",
+  "flags": 23
+ },
+ {
+  "name": "x",
+  "vartype": 3,
+  "offset": 32,
+  "size": 8,
+  "doc": "x position of ball (m)",
+  "flags": 23
+ },
+ {
+  "name": "y",
+  "vartype": 3,
+  "offset": 40,
+  "size": 8,
+  "doc": "y position of ball (m)",
+  "flags": 23
+ },
+ {
+  "name": "z",
+  "vartype": 3,
+  "offset": 48,
+  "size": 8,
+  "doc": "z position of ball (m)",
+  "flags": 23
+ },
+ {
+  "name": "vx",
+  "vartype": 3,
+  "offset": 80,
+  "size": 8,
+  "doc": "x velocity of ball (m/s)",
+  "flags": 23
+ },
+ {
+  "name": "vy",
+  "vartype": 3,
+  "offset": 88,
+  "size": 8,
+  "doc": "y velocity of ball (m/s)",
+  "flags": 23
+ },
+ {
+  "name": "vz",
+  "vartype": 3,
+  "offset": 96,
+  "size": 8,
+  "doc": "z velocity of ball (m/s)",
+  "flags": 23
+ },
+ {
+  "name": "yaw",
+  "vartype": 2,
+  "offset": 200,
+  "size": 4,
+  "doc": "Yaw of ball",
+  "flags": 1
+ },
+ {
+  "name": "pitch",
+  "vartype": 2,
+  "offset": 208,
+  "size": 4,
+  "doc": "Pitch of ball",
+  "flags": 1
+ },
+ {
+  "name": "roll",
+  "vartype": 2,
+  "offset": 216,
+  "size": 4,
+  "doc": "Roll of ball",
+  "flags": 1
+ },
+ {
+  "name": "Agility",
+  "vartype": 2,
+  "offset": 128,
+  "size": 4,
+  "doc": "Agility modifier of ship",
+  "flags": 23
+ },
+ {
+  "name": "speedFraction",
+  "vartype": 2,
+  "offset": 132,
+  "size": 4,
+  "doc": "Cruise velocity as a fraction of maximum velocity",
+  "flags": 23
+ },
+ {
+  "name": "mode",
+  "vartype": 1,
+  "offset": 136,
+  "size": 4,
+  "doc": "Dynamic mode of ball",
+  "flags": 529
+ },
+ {
+  "name": "gotoX",
+  "vartype": 3,
+  "offset": 160,
+  "size": 8,
+  "doc": "x destination of ball (m)",
+  "flags": 23
+ },
+ {
+  "name": "gotoY",
+  "vartype": 3,
+  "offset": 168,
+  "size": 8,
+  "doc": "y destination of ball (m)",
+  "flags": 23
+ },
+ {
+  "name": "gotoZ",
+  "vartype": 3,
+  "offset": 176,
+  "size": 8,
+  "doc": "z destination of ball (m)",
+  "flags": 23
+ },
+ {
+  "name": "followId",
+  "vartype": 1,
+  "offset": 140,
+  "size": 4,
+  "doc": "id of ball",
+  "flags": 17
+ },
+ {
+  "name": "followRange",
+  "vartype": 3,
+  "offset": 144,
+  "size": 8,
+  "doc": "range of follow",
+  "flags": 17
+ },
+ {
+  "name": "ownerId",
+  "vartype": 1,
+  "offset": 152,
+  "size": 4,
+  "doc": "id of ball",
+  "flags": 19
+ },
+ {
+  "name": "effectStamp",
+  "vartype": 1,
+  "offset": 156,
+  "size": 4,
+  "doc": "time stamp of effect",
+  "flags": 17
+ },
+ {
+  "name": "newBubbleId",
+  "vartype": 1,
+  "offset": 184,
+  "size": 4,
+  "doc": "id of bubble ball currently belongs to",
+  "flags": 1
+ },
+ {
+  "name": "oldBubbleId",
+  "vartype": 1,
+  "offset": 188,
+  "size": 4,
+  "doc": "id of bubble ball used to belong to",
+  "flags": 1
+ },
+ {
+  "name": "miniBalls",
+  "vartype": 5,
+  "offset": 232,
+  "size": 36,
+  "doc": "na",
+  "flags": 19
+ },
+ {
+  "name": "ballpark",
+  "vartype": 6,
+  "offset": 268,
+  "size": 4,
+  "doc": "The ballpark",
+  "flags": 1
+ },
+ {
+  "name": 0,
+  "vartype": null,
+  "offset": null,
+  "size": null,
+  "doc": null,
+  "flags": null
+ }
+]

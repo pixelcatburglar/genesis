@@ -1,0 +1,13 @@
+[package]
+name = "proto"
+description = "machoNet wire protocol of the EVE build-1000 client"
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+
+[dependencies]
+marshal.workspace = true
+bytes.workspace = true
+thiserror.workspace = true
+tokio-util.workspace = true
+flate2 = "1"

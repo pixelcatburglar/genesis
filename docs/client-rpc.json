@@ -1,0 +1,723 @@
+{
+ "account": {
+  "GetCashBalance": [
+   "ui/shared/neocom/corporation/base_corporation.py:1155",
+   "ui/shared/neocom/wallet.py:195",
+   "ui/shared/neocom/wallet.py:61",
+   "ui/shared/neocom/wallet.py:843"
+  ],
+  "GetSharesByShareholder": [
+   "ui/shared/neocom/wallet.py:661"
+  ],
+  "GiveCash": [
+   "ui/shared/neocom/wallet.py:159"
+  ],
+  "GiveCashFromCorpAccount": [
+   "ui/shared/neocom/wallet.py:175"
+  ],
+  "MoveCompanyShares": [
+   "ui/shared/neocom/corporation/members.py:473"
+  ]
+ },
+ "authentication": {
+  "Ping": [
+   "sys/eve.py:495",
+   "sys/eve.py:497",
+   "sys/eve.py:499",
+   "sys/eve.py:501",
+   "sys/eve.py:533"
+  ]
+ },
+ "billMgr": {
+  "CharGetBills": [
+   "ui/shared/neocom/bills.py:105"
+  ],
+  "CharGetBillsReceivable": [
+   "ui/shared/neocom/bills.py:121"
+  ],
+  "CharPayBill": [
+   "ui/shared/neocom/bills.py:751"
+  ],
+  "GetBillTypes": [
+   "ui/shared/neocom/bills.py:41"
+  ],
+  "GetCorporationBills": [
+   "ui/shared/neocom/bills.py:109"
+  ],
+  "GetCorporationBillsReceivable": [
+   "ui/shared/neocom/bills.py:125"
+  ],
+  "PayCorporationBill": [
+   "ui/shared/neocom/bills.py:771"
+  ]
+ },
+ "bookmark": {
+  "AddBookmarkFromVoucher": [
+   "ui/shared/neocom/bookmarks.py:569"
+  ],
+  "BookmarkCharacter": [
+   "ui/shared/neocom/addressbook.py:615"
+  ],
+  "BookmarkLocation": [
+   "ui/shared/neocom/bookmarks.py:281",
+   "ui/shared/neocom/bookmarks.py:365"
+  ],
+  "CreateBookmarkVoucher": [
+   "ui/shared/neocom/bookmarks.py:189"
+  ],
+  "DeleteBookmark": [
+   "ui/shared/neocom/addressbook.py:627",
+   "ui/shared/neocom/bookmarks.py:379"
+  ],
+  "GetBookmarks": [
+   "ui/shared/neocom/addressbook.py:145",
+   "ui/shared/neocom/addressbook.py:331",
+   "ui/shared/neocom/addressbook.py:617",
+   "ui/shared/neocom/addressbook.py:629",
+   "ui/shared/neocom/addressbook.py:653",
+   "ui/shared/neocom/bookmarks.py:327"
+  ],
+  "UpdateBookmark": [
+   "ui/shared/neocom/bookmarks.py:309"
+  ]
+ },
+ "character": {
+  "CreateCharacter": [
+   "ui/login/charcreationbase.py:183"
+  ],
+  "DeleteCharacter": [
+   "ui/login/charsel.py:645"
+  ],
+  "GetAppearanceInfo": [
+   "ui/login/ccutil.py:45"
+  ],
+  "GetCharCreationInfo": [
+   "ui/login/ccutil.py:23"
+  ],
+  "GetCharacterAppearanceList": [
+   "ui/util/photo.py:111"
+  ],
+  "GetCharacterInfo": [
+   "ui/login/charsel.py:231"
+  ],
+  "GetHistory": [
+   "ui/shared/maps/map.py:4429",
+   "ui/shared/maps/map.py:4483",
+   "ui/shared/maps/map.py:4531"
+  ],
+  "GetHomeStation": [
+   "ui/station/medical/medical.py:137"
+  ],
+  "GetPotentialHomeStations": [
+   "ui/station/medical/medical.py:159"
+  ],
+  "GetSolarSystemVisits": [
+   "ui/shared/maps/map.py:4331"
+  ],
+  "GetStationCount": [
+   "ui/shared/maps/map.py:4379"
+  ],
+  "SelectCharacterID": [
+   "ui/login/charsel.py:721",
+   "ui/login/login.py:993"
+  ],
+  "SetHomeStation": [
+   "ui/station/medical/medical.py:147"
+  ],
+  "ValidateJoveCode": [
+   "ui/login/steps.py:407"
+  ]
+ },
+ "charmgr": {
+  "AddToBounty": [
+   "ui/station/missions/base_missions.py:1227"
+  ],
+  "GetPublicInfo": [
+   "ui/shared/comtool/base.py:527",
+   "ui/shared/neocom/charactersheet.py:137",
+   "ui/shared/neocom/corporation/members.py:155",
+   "ui/station/brokers/base_brokers.py:739",
+   "ui/station/missions/base_missions.py:1143",
+   "ui/util/photo.py:375"
+  ],
+  "GetPublicInfo2": [
+   "ui/shared/infosvc.py:1397",
+   "ui/station/missions/base_missions.py:1145"
+  ],
+  "GetStationList": [
+   "ui/station/medical/medical.py:375"
+  ],
+  "GetTopBounties": [
+   "ui/station/missions/base_missions.py:1253"
+  ]
+ },
+ "chatx": {
+  "EstablishChannel": [
+   "ui/shared/comtool/base.py:565"
+  ],
+  "GetChannels": [
+   "ui/shared/comtool/base.py:1001"
+  ]
+ },
+ "config": {
+  "GetCelestialStatistic": [
+   "ui/shared/infosvc.py:1729"
+  ],
+  "GetMap": [
+   "ui/shared/maps/map.py:1583"
+  ],
+  "GetMapConnections": [
+   "ui/shared/maps/map.py:635",
+   "ui/shared/maps/map.py:851"
+  ],
+  "GetMapLandmarks": [
+   "ui/shared/maps/map.py:4869",
+   "ui/shared/maps/map.py:723"
+  ],
+  "GetMapObjects": [
+   "ui/shared/maps/map.py:587",
+   "ui/shared/maps/map.py:601",
+   "ui/shared/maps/map.py:617",
+   "ui/shared/maps/map2D.py:727",
+   "ui/shared/maps/solarsystem2D.py:261",
+   "ui/shared/maps/solarsystem2D.py:265",
+   "ui/shared/neocom/neocom.py:757"
+  ],
+  "GetSolarSystemCelestials": [
+   "ui/shared/infosvc.py:1747"
+  ],
+  "GetStationSolarSystemsByOwner": [
+   "ui/shared/infosvc.py:1547"
+  ],
+  "GetUnits": [
+   "ui/shared/infosvc.py:149",
+   "ui/shared/infosvc.py:179",
+   "ui/shared/infosvc.py:2465"
+  ],
+  "SetMapLandmarks": [
+   "ui/shared/maps/map.py:4917"
+  ]
+ },
+ "corpmgr": {
+  "AddCorporation": [
+   "ui/shared/neocom/corporation/editcorpdetails.py:651"
+  ],
+  "AddGrantableRoleToMember": [
+   "ui/shared/neocom/corporation/members.py:449"
+  ],
+  "AddRoleToMember": [
+   "ui/shared/neocom/corporation/members.py:441"
+  ],
+  "CanBeKickedOut": [
+   "ui/shared/neocom/corporation/base_corporation.py:1925"
+  ],
+  "CanViewVotes": [
+   "ui/shared/neocom/corporation/base_corporation.py:1471",
+   "ui/shared/neocom/corporation/base_corporation.py:1477",
+   "ui/shared/neocom/corporation/base_corporation.py:1483"
+  ],
+  "CharCanRunForCEO": [
+   "ui/shared/neocom/corporation/base_corporation.py:1575",
+   "ui/shared/neocom/corporation/base_corporation.py:1581"
+  ],
+  "DeleteApplication": [
+   "ui/shared/neocom/corporation/applications.py:301"
+  ],
+  "GetApplications": [
+   "ui/shared/neocom/corporation/applications.py:107",
+   "ui/shared/neocom/corporation/applications.py:111",
+   "ui/shared/neocom/corporation/applications.py:315",
+   "ui/shared/neocom/corporation/applications.py:595",
+   "ui/station/lobby.py:889"
+  ],
+  "GetCorporationIDForCharacter": [
+   "ui/shared/infosvc.py:987",
+   "ui/shared/infosvc.py:995",
+   "ui/station/pvptrade/pvptradewnd.py:437",
+   "ui/station/pvptrade/pvptradewnd.py:447"
+  ],
+  "GetCorporationInventory": [
+   "ui/shared/neocom/corporation/accounts.py:653"
+  ],
+  "GetCorporationStandings": [
+   "ui/shared/neocom/corporation/standings.py:117"
+  ],
+  "GetCorporationStations": [
+   "ui/station/pvptrade/pvptradewnd.py:363"
+  ],
+  "GetCorporationWallet": [
+   "ui/shared/neocom/wallet.py:639",
+   "ui/station/market/base_market.py:1633"
+  ],
+  "GetCorporations": [
+   "ui/shared/neocom/corporation/base_corporation.py:1777",
+   "ui/shared/neocom/corporation/base_corporation.py:1821",
+   "ui/station/pvptrade/pvptradewnd.py:339",
+   "ui/windowsvc.py:1137",
+   "ui/windowsvc.py:1159"
+  ],
+  "GetCostForCreatingACorporation": [
+   "ui/shared/neocom/corporation/base_corporation.py:1285"
+  ],
+  "GetGrantableRolesForCharacter": [
+   "ui/shared/neocom/corporation/base_corporation.py:1739",
+   "ui/shared/neocom/corporation/base_corporation.py:1745"
+  ],
+  "GetItemsRented": [
+   "ui/shared/neocom/corporation/accounts.py:449"
+  ],
+  "GetLogonData": [
+   "ui/shared/neocom/corporation/base_corporation.py:153"
+  ],
+  "GetMembers": [
+   "ui/shared/neocom/corporation/members.py:167"
+  ],
+  "GetMembersIDs": [
+   "ui/shared/neocom/corporation/base_corporation.py:1801"
+  ],
+  "GetMembersWithNamesWithMoreThanAvgShares": [
+   "ui/shared/neocom/corporation/votes.py:425"
+  ],
+  "GetPublicInfo": [
+   "ui/shared/infosvc.py:1523",
+   "ui/shared/infosvc.py:847",
+   "ui/shared/neocom/corporation/base_corporation.py:1905"
+  ],
+  "GetRoles": [
+   "ui/shared/neocom/corporation/base_corporation.py:1789"
+  ],
+  "GetSanctionedActionsByCorporation": [
+   "ui/shared/neocom/corporation/sanctionableactions.py:115",
+   "ui/shared/neocom/corporation/sanctionableactions.py:313"
+  ],
+  "GetSuggestedTickerNames": [
+   "ui/shared/neocom/corporation/editcorpdetails.py:601"
+  ],
+  "GetVoteCaseOptions": [
+   "ui/shared/neocom/corporation/base_corporation.py:1757",
+   "ui/shared/neocom/corporation/base_corporation.py:1763",
+   "ui/shared/neocom/corporation/base_corporation.py:1873",
+   "ui/shared/neocom/corporation/sanctionableactions.py:175"
+  ],
+  "GetVoteCasesByCorporation": [
+   "ui/shared/neocom/corporation/base_corporation.py:1887",
+   "ui/shared/neocom/corporation/base_corporation.py:1893",
+   "ui/shared/neocom/corporation/votes.py:171",
+   "ui/shared/neocom/corporation/votes.py:287"
+  ],
+  "GetVotes": [
+   "ui/shared/neocom/corporation/votes.py:193"
+  ],
+  "GetWars": [
+   "ui/shared/neocom/corporation/base_corporation.py:591",
+   "ui/shared/neocom/corporation/base_corporation.py:597"
+  ],
+  "InsertApplication": [
+   "ui/station/lobby.py:937"
+  ],
+  "InsertVote": [
+   "ui/shared/neocom/corporation/votes.py:373"
+  ],
+  "InsertVoteCase": [
+   "ui/shared/neocom/corporation/votes.py:617"
+  ],
+  "KickOutMember": [
+   "ui/shared/neocom/corporation/base_corporation.py:1937"
+  ],
+  "PayoutDividend": [
+   "ui/shared/neocom/corporation/base_corporation.py:1193"
+  ],
+  "RemoveGrantableRoleFromMember": [
+   "ui/shared/neocom/corporation/members.py:465"
+  ],
+  "RemoveRoleFromMember": [
+   "ui/shared/neocom/corporation/members.py:457"
+  ],
+  "ResignFromCEO": [
+   "ui/shared/neocom/corporation/base_corporation.py:1211",
+   "ui/shared/neocom/corporation/base_corporation.py:1245"
+  ],
+  "UpdateApplication": [
+   "ui/shared/neocom/corporation/applications.py:581",
+   "ui/shared/neocom/corporation/applications.py:851"
+  ],
+  "UpdateCorporation": [
+   "ui/shared/neocom/corporation/editcorpdetails.py:503"
+  ],
+  "UpdateCorporationAbilities": [
+   "ui/shared/neocom/corporation/editcorpdetails.py:453"
+  ],
+  "UpdateCorporationStandings": [
+   "ui/shared/neocom/corporation/standings.py:357"
+  ],
+  "UpdateLogo": [
+   "ui/shared/neocom/corporation/editcorpdetails.py:499"
+  ],
+  "UpdateMember": [
+   "ui/shared/neocom/corporation/members.py:481"
+  ],
+  "UpdateSanctionedAction": [
+   "ui/shared/neocom/corporation/sanctionableactions.py:269"
+  ],
+  "UserCanCreateCorporation": [
+   "ui/shared/neocom/corporation/base_corporation.py:1629"
+  ],
+  "UserIsAccountantOrEquivalent": [
+   "ui/shared/neocom/corporation/base_corporation.py:1655",
+   "ui/shared/neocom/corporation/base_corporation.py:1661"
+  ],
+  "UserIsActiveCEO": [
+   "ui/shared/neocom/corporation/base_corporation.py:1527",
+   "ui/shared/neocom/corporation/base_corporation.py:1533"
+  ],
+  "UserIsActiveCEOorEquivalent": [
+   "ui/shared/neocom/corporation/base_corporation.py:1555",
+   "ui/shared/neocom/corporation/base_corporation.py:1561"
+  ],
+  "UserIsCEO": [
+   "ui/shared/neocom/corporation/base_corporation.py:1497",
+   "ui/shared/neocom/corporation/base_corporation.py:1503",
+   "ui/station/lobby.py:883"
+  ],
+  "UserIsFactoryManager": [
+   "ui/shared/neocom/corporation/base_corporation.py:1687",
+   "ui/shared/neocom/corporation/base_corporation.py:1693",
+   "ui/station/facilities/facility.py:815"
+  ],
+  "UserIsPersonnelManagerOrEquivalent": [
+   "ui/shared/neocom/corporation/base_corporation.py:1611",
+   "ui/shared/neocom/corporation/base_corporation.py:1617"
+  ],
+  "UserIsStationManager": [
+   "ui/shared/neocom/corporation/base_corporation.py:1719",
+   "ui/shared/neocom/corporation/base_corporation.py:1725"
+  ]
+ },
+ "dogmaIM": {
+  "GetAttributeTypes": [
+   "environment/godma.py:1385",
+   "ui/shared/infosvc.py:107"
+  ],
+  "GetRequiredSkillLevels": [
+   "ui/shared/infosvc.py:2267",
+   "ui/station/market/base_market.py:827"
+  ],
+  "GetSkillPrerequisites": [
+   "ui/login/ccutil.py:361"
+  ]
+ },
+ "factory": {
+  "GetBlueprintAttributes": [
+   "ui/shared/infosvc.py:1599"
+  ],
+  "GetBlueprintInformation": [
+   "ui/generic/listwindow.py:537",
+   "ui/station/facilities/facility.py:1235"
+  ],
+  "GetMineralCompositionOfItemType": [
+   "ui/shared/infosvc.py:1659"
+  ]
+ },
+ "gangsta": {
+  "AcceptInvitation": [
+   "ui/shared/comtool/base.py:1383"
+  ],
+  "ClaimLeadership": [
+   "ui/generic/userentry.py:325",
+   "ui/menusvc.py:589"
+  ],
+  "DisbandGang": [
+   "ui/generic/userentry.py:301",
+   "ui/menusvc.py:565"
+  ],
+  "GetGangInfoForChar": [
+   "parklife/gang.py:97"
+  ],
+  "InviteCharacter": [
+   "ui/generic/userentry.py:309",
+   "ui/menusvc.py:573"
+  ],
+  "KickMember": [
+   "ui/generic/userentry.py:293",
+   "ui/menusvc.py:557"
+  ],
+  "LeaveGang": [
+   "ui/generic/userentry.py:277",
+   "ui/menusvc.py:541"
+  ],
+  "MakeLeader": [
+   "ui/generic/userentry.py:285",
+   "ui/menusvc.py:549"
+  ],
+  "RejectInvitation": [
+   "ui/shared/comtool/base.py:1387"
+  ],
+  "ResignLeadership": [
+   "ui/generic/userentry.py:317",
+   "ui/menusvc.py:581"
+  ]
+ },
+ "lookupSvc": {
+  "LookupStations": [
+   "ui/uix.py:1837"
+  ]
+ },
+ "market": {
+  "GetMarketGroups": [
+   "ui/station/brokers/base_brokers.py:169",
+   "ui/station/market/base_market.py:365"
+  ],
+  "GetMarketRegion": [
+   "ui/station/market/quickbuysell.py:533"
+  ],
+  "GetPriceHistory": [
+   "ui/station/market/pricehistorychart.py:145"
+  ]
+ },
+ "marketBroker": {
+  "GetMarketRegion": [
+   "ui/shared/market.py:71"
+  ]
+ },
+ "missionMgr": {
+  "AcceptCourierMission": [
+   "ui/station/missions/missionentry.py:245"
+  ],
+  "CancelMission": [
+   "ui/station/missions/missionentry.py:209"
+  ],
+  "DeliverCourierPackage": [
+   "ui/station/missions/missionentry.py:227"
+  ],
+  "GetAvailableCourierMissions": [
+   "ui/station/missions/base_missions.py:1015"
+  ],
+  "GetMyCourierMissions": [
+   "ui/station/missions/base_missions.py:103"
+  ]
+ },
+ "newBreedAgents": {
+  "GetMyAgents": [
+   "ui/station/agents/agents.py:203",
+   "ui/station/agents/agents.py:59",
+   "ui/station/lobby.py:539"
+  ],
+  "GetMyMissionStatus": [
+   "ui/shared/neocom/journal.py:471"
+  ],
+  "Interact": [
+   "ui/station/agents/agents.py:355"
+  ]
+ },
+ "newsmgr": {
+  "GetChannels": [
+   "ui/station/news/base_news.py:263"
+  ],
+  "GetResponses": [
+   "ui/station/news/base_news.py:355"
+  ],
+  "GetThreads": [
+   "ui/station/news/base_news.py:309"
+  ],
+  "NewResponse": [
+   "ui/station/news/base_news.py:485"
+  ],
+  "NewThread": [
+   "ui/station/news/base_news.py:415"
+  ]
+ },
+ "pager": {
+  "DeletePages": [
+   "ui/shared/neocom/inbox.py:1189",
+   "ui/shared/neocom/inbox.py:417",
+   "ui/shared/neocom/inbox.py:507",
+   "ui/shared/neocom/inbox.py:917"
+  ],
+  "FindOwner": [
+   "ui/shared/browser/base.py:121",
+   "ui/shared/infosvc.py:725",
+   "ui/uix.py:1741"
+  ],
+  "GetPageMessage": [
+   "ui/shared/neocom/inbox.py:129"
+  ],
+  "GetPages": [
+   "ui/shared/neocom/inbox.py:445",
+   "ui/shared/neocom/inbox.py:55",
+   "ui/shared/neocom/inbox.py:901"
+  ],
+  "Page": [
+   "ui/shared/comtool/newmessage.py:261"
+  ]
+ },
+ "petitioner": {
+  "CancelPetition": [
+   "ui/shared/neocom/petition.py:1371"
+  ],
+  "ClaimPetition": [
+   "ui/shared/neocom/petition.py:1451"
+  ],
+  "ClosePetition": [
+   "ui/shared/neocom/petition.py:1389"
+  ],
+  "CreatePetition": [
+   "ui/shared/neocom/petition.py:851"
+  ],
+  "DeletePetition": [
+   "ui/shared/neocom/petition.py:1351"
+  ],
+  "EscalatePetition": [
+   "ui/shared/neocom/petition.py:1433"
+  ],
+  "GetCategories": [
+   "ui/shared/neocom/petition.py:655"
+  ],
+  "GetCategoryDetails": [
+   "ui/shared/neocom/petition.py:757"
+  ],
+  "GetCategoryName": [
+   "ui/shared/neocom/petition.py:687"
+  ],
+  "GetCategoryProperties": [
+   "ui/shared/neocom/petition.py:791"
+  ],
+  "GetClaimedPetitions": [
+   "ui/shared/neocom/petition.py:555"
+  ],
+  "GetMyPetitions": [
+   "ui/shared/neocom/petition.py:483"
+  ],
+  "GetPetition": [
+   "ui/shared/neocom/petition.py:127"
+  ],
+  "GetPetitionLog": [
+   "ui/shared/neocom/petition.py:1061"
+  ],
+  "GetPetitionMessages": [
+   "ui/shared/neocom/petition.py:1113"
+  ],
+  "GetPetitionQueue": [
+   "ui/shared/neocom/petition.py:605"
+  ],
+  "GetQueues": [
+   "ui/shared/neocom/petition.py:643"
+  ],
+  "GetUnreadMessages": [
+   "ui/shared/neocom/petition.py:105"
+  ],
+  "MarkAsRead": [
+   "ui/shared/neocom/petition.py:123",
+   "ui/shared/neocom/petition.py:1685"
+  ],
+  "PetitioneeChat": [
+   "ui/shared/neocom/petition.py:1189",
+   "ui/shared/neocom/petition.py:1317"
+  ],
+  "PetitionerChat": [
+   "ui/shared/neocom/petition.py:1205",
+   "ui/shared/neocom/petition.py:1287"
+  ],
+  "UnClaimPetition": [
+   "ui/shared/neocom/petition.py:1407"
+  ]
+ },
+ "repair": {
+  "DamageModule": [
+   "ui/station/repairshop/base_repairshop.py:279"
+  ],
+  "GetDamageReport": [
+   "ui/station/repairshop/base_repairshop.py:147"
+  ],
+  "RepairModule": [
+   "ui/station/repairshop/base_repairshop.py:255"
+  ],
+  "RepairShip": [
+   "ui/station/repairshop/base_repairshop.py:269"
+  ]
+ },
+ "reprocessing": {
+  "GetOptionsForItemTypes": [
+   "ui/station/reprocessingplant/base_reprocessingplant.py:183"
+  ],
+  "GetQuote": [
+   "ui/station/reprocessingplant/base_reprocessingplant.py:363"
+  ],
+  "Reprocess": [
+   "ui/station/reprocessingplant/base_reprocessingplant.py:313"
+  ]
+ },
+ "shipSvc": {
+  "GetShipAppearance": [
+   "environment/spaceObject/ship.py:137",
+   "ui/station/paintshop/base_paintshop.py:285"
+  ]
+ },
+ "slash": {
+  "SlashCmd": [
+   "ui/shared/comtool/channel.py:1003",
+   "ui/shared/comtool/regioninput.py:81"
+  ]
+ },
+ "standing": {
+  "GetStandingsTowardsOwner": [
+   "ui/shared/neocom/charactersheet.py:569"
+  ]
+ },
+ "standingmgr": {
+  "GetPrivateStanding": [
+   "ui/shared/infosvc.py:1395",
+   "ui/shared/neocom/corporation/members.py:153"
+  ],
+  "GetPrivateStandingsEx": [
+   "parklife/threat.py:139"
+  ],
+  "GetSecutiryStatus": [
+   "ui/shared/neocom/charactersheet.py:151"
+  ],
+  "SetPrivateStanding": [
+   "ui/shared/infosvc.py:2643"
+  ],
+  "SetPrivateStandingNotes": [
+   "ui/shared/infosvc.py:2617"
+  ]
+ },
+ "station": {
+  "FindLocation": [
+   "ui/station/medical/medical.py:555"
+  ],
+  "GetStationItemBits": [
+   "sys/eve.py:109"
+  ],
+  "Paintshop_GetLayerColors": [
+   "ui/shared/neocom/corporation/editcorpdetails.py:305",
+   "ui/station/paintshop/base_paintshop.py:421"
+  ],
+  "Paintshop_GetLayerShapes": [
+   "ui/shared/neocom/corporation/editcorpdetails.py:209",
+   "ui/station/paintshop/base_paintshop.py:375"
+  ],
+  "Paintshop_SetShipAppearance": [
+   "ui/station/paintshop/base_paintshop.py:749"
+  ],
+  "SetShipName": [
+   "ui/deco/item.py:763"
+  ]
+ },
+ "trademgr": {
+  "InitiateTrade": [
+   "ui/station/pvptrade/pvptradesvc.py:31",
+   "ui/windowsvc.py:1141"
+  ]
+ },
+ "voucher": {
+  "GetObject": [
+   "ui/deco/item.py:231",
+   "ui/shared/infosvc.py:763",
+   "ui/station/market/base_market.py:1539",
+   "ui/station/market/base_market.py:459",
+   "ui/station/market/base_market.py:529",
+   "ui/station/market/base_market.py:715",
+   "ui/station/market/marketentry.py:159"
+  ]
+ }
+}

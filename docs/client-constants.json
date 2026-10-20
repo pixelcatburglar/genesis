@@ -1,0 +1,1767 @@
+{
+ "config.Bloodlines": {
+  "bloodlineAmarr": {
+   "first": "ui/util/face.py:69",
+   "refs": 2,
+   "row": "Amarr"
+  },
+  "bloodlineBrutor": {
+   "first": "ui/util/face.py:69",
+   "refs": 2,
+   "row": "Brutor"
+  },
+  "bloodlineCivire": {
+   "first": "ui/util/face.py:69",
+   "refs": 2,
+   "row": "Civire"
+  },
+  "bloodlineDeteis": {
+   "first": "ui/util/face.py:69",
+   "refs": 2,
+   "row": "Deteis"
+  },
+  "bloodlineGallente": {
+   "first": "ui/util/face.py:69",
+   "refs": 2,
+   "row": "Gallente"
+  },
+  "bloodlineIntaki": {
+   "first": "ui/util/face.py:69",
+   "refs": 2,
+   "row": "Intaki"
+  },
+  "bloodlineNiKunni": {
+   "first": "ui/util/face.py:69",
+   "refs": 2,
+   "row": "NiKunni"
+  },
+  "bloodlineSebiestor": {
+   "first": "ui/util/face.py:69",
+   "refs": 2,
+   "row": "Sebiestor"
+  }
+ },
+ "config.BulkData.categories": {
+  "categoryAccessories": {
+   "first": "ui/shared/infosvc.py:783",
+   "refs": 1,
+   "row": "Accessories"
+  },
+  "categoryBlueprint": {
+   "first": "sys/cfg.py:3059",
+   "refs": 7,
+   "row": "Blueprint"
+  },
+  "categoryCelestial": {
+   "first": "ui/menusvc.py:249",
+   "refs": 6,
+   "row": "Celestial"
+  },
+  "categoryCharge": {
+   "first": "environment/godma.py:1491",
+   "refs": 15,
+   "row": "Charge"
+  },
+  "categoryDrone": {
+   "first": "parklife/bracketMgr.py:935",
+   "refs": 15,
+   "row": "Drone"
+  },
+  "categoryEntity": {
+   "first": "parklife/targetMgr.py:715",
+   "refs": 12,
+   "row": "Entity"
+  },
+  "categoryImplant": {
+   "first": "ui/generic/listwindow.py:569",
+   "refs": 6,
+   "row": "Implant"
+  },
+  "categoryModule": {
+   "first": "environment/godma.py:505",
+   "refs": 7,
+   "row": "Module"
+  },
+  "categoryOwner": {
+   "first": "sys/sessions.py:3235",
+   "refs": 1,
+   "row": "Owner"
+  },
+  "categoryShip": {
+   "first": "environment/godma.py:1079",
+   "refs": 46,
+   "row": "Ship"
+  },
+  "categorySkill": {
+   "first": "ui/deco/item.py:415",
+   "refs": 7,
+   "row": "Skill"
+  },
+  "categoryStation": {
+   "first": "sys/cfg.py:1043",
+   "refs": 11,
+   "row": "Station"
+  },
+  "categoryTrading": {
+   "first": "sys/cfg.py:1043",
+   "refs": 1,
+   "row": "Trading"
+  }
+ },
+ "config.BulkData.constants": {
+  "activityCopying": {
+   "first": "ui/generic/listwindow.py:515",
+   "refs": 6,
+   "row": "activityCopying"
+  },
+  "activityDuplicating": {
+   "first": "ui/station/facilities/facility.py:1143",
+   "refs": 5,
+   "row": "activityDuplicating"
+  },
+  "activityManufacturing": {
+   "first": "ui/generic/listwindow.py:565",
+   "refs": 10,
+   "row": "activityManufacturing"
+  },
+  "activityNone": {
+   "first": "ui/station/facilities/facility.py:1065",
+   "refs": 1,
+   "row": "activityNone"
+  },
+  "activityResearchingMineralProductivity": {
+   "first": "ui/generic/listwindow.py:515",
+   "refs": 6,
+   "row": "activityResearchingMineralProductivity"
+  },
+  "activityResearchingTechnology": {
+   "first": "ui/generic/listwindow.py:515",
+   "refs": 2,
+   "row": "activityResearchingTechnology"
+  },
+  "activityResearchingTimeProductivity": {
+   "first": "ui/generic/listwindow.py:515",
+   "refs": 6,
+   "row": "activityResearchingTimeProductivity"
+  },
+  "activityReverseEngineering": {
+   "first": "ui/station/facilities/facility.py:1143",
+   "refs": 5,
+   "row": "activityReverseEngineering"
+  },
+  "chrattrCharisma": {
+   "first": "ui/login/charcreationbase.py:183",
+   "refs": 1,
+   "row": "chrattrCharisma"
+  },
+  "chrattrIntelligence": {
+   "first": "ui/login/charcreationbase.py:183",
+   "refs": 1,
+   "row": "chrattrIntelligence"
+  },
+  "chrattrMemory": {
+   "first": "ui/login/charcreationbase.py:183",
+   "refs": 1,
+   "row": "chrattrMemory"
+  },
+  "chrattrPerception": {
+   "first": "ui/login/charcreationbase.py:183",
+   "refs": 1,
+   "row": "chrattrPerception"
+  },
+  "chrattrWillpower": {
+   "first": "ui/login/charcreationbase.py:183",
+   "refs": 1,
+   "row": "chrattrWillpower"
+  },
+  "containerBank": {
+   "first": "environment/invCache.py:207",
+   "refs": 2,
+   "row": "containerBank"
+  },
+  "containerCharacter": {
+   "first": "environment/invCache.py:207",
+   "refs": 2,
+   "row": "containerCharacter"
+  },
+  "containerFactory": {
+   "first": "environment/invCache.py:207",
+   "refs": 3,
+   "row": "containerFactory"
+  },
+  "containerGlobal": {
+   "first": "environment/invCache.py:207",
+   "refs": 5,
+   "row": "containerGlobal"
+  },
+  "containerHangar": {
+   "first": "environment/invCache.py:117",
+   "refs": 27,
+   "row": "containerHangar"
+  },
+  "containerOffices": {
+   "first": "environment/invCache.py:207",
+   "refs": 2,
+   "row": "containerOffices"
+  },
+  "containerRecycler": {
+   "first": "environment/invCache.py:207",
+   "refs": 2,
+   "row": "containerRecycler"
+  },
+  "containerScrapHeap": {
+   "first": "environment/invCache.py:207",
+   "refs": 2,
+   "row": "containerScrapHeap"
+  },
+  "containerSolarSystem": {
+   "first": "environment/invCache.py:207",
+   "refs": 2,
+   "row": "containerSolarSystem"
+  },
+  "containerStationCharacters": {
+   "first": "environment/invCache.py:207",
+   "refs": 2,
+   "row": "containerStationCharacters"
+  },
+  "containerWallet": {
+   "first": "environment/invCache.py:207",
+   "refs": 4,
+   "row": "containerWallet"
+  },
+  "corpLogoChangeCost": {
+   "first": "ui/shared/neocom/corporation/editcorpdetails.py:497",
+   "refs": 1,
+   "row": "corpLogoChangeCost"
+  },
+  "corpRoleAccountant": {
+   "first": "ui/shared/neocom/corporation/base_corporation.py:1645",
+   "refs": 1,
+   "row": "corpRoleAccountant"
+  },
+  "corpRoleDirector": {
+   "first": "ui/shared/neocom/corporation/base_corporation.py:1515",
+   "refs": 6,
+   "row": "corpRoleDirector"
+  },
+  "corpRoleFactoryManager": {
+   "first": "ui/shared/neocom/corporation/base_corporation.py:1677",
+   "refs": 1,
+   "row": "corpRoleFactoryManager"
+  },
+  "corpRolePersonnelManager": {
+   "first": "ui/shared/neocom/corporation/base_corporation.py:1601",
+   "refs": 4,
+   "row": "corpRolePersonnelManager"
+  },
+  "corpRoleStationManager": {
+   "first": "ui/shared/neocom/corporation/base_corporation.py:1709",
+   "refs": 1,
+   "row": "corpRoleStationManager"
+  },
+  "costCloneContract": {
+   "first": "ui/station/medical/medical.py:289",
+   "refs": 1,
+   "row": "costCloneContract"
+  },
+  "crpApplicationAcceptedByCharacter": {
+   "first": "ui/shared/neocom/corporation/applications.py:143",
+   "refs": 4,
+   "row": "crpApplicationAcceptedByCharacter"
+  },
+  "crpApplicationAcceptedByCorporation": {
+   "first": "ui/shared/neocom/corporation/applications.py:163",
+   "refs": 6,
+   "row": "crpApplicationAcceptedByCorporation"
+  },
+  "crpApplicationAppliedByCharacter": {
+   "first": "ui/shared/neocom/corporation/applications.py:135",
+   "refs": 3,
+   "row": "crpApplicationAppliedByCharacter"
+  },
+  "crpApplicationRejectedByCharacter": {
+   "first": "ui/shared/neocom/corporation/applications.py:147",
+   "refs": 5,
+   "row": "crpApplicationRejectedByCharacter"
+  },
+  "crpApplicationRejectedByCorporation": {
+   "first": "ui/shared/neocom/corporation/applications.py:151",
+   "refs": 5,
+   "row": "crpApplicationRejectedByCorporation"
+  },
+  "crpApplicationRenegotiatedByCharacter": {
+   "first": "ui/shared/neocom/corporation/applications.py:139",
+   "refs": 6,
+   "row": "crpApplicationRenegotiatedByCharacter"
+  },
+  "crpApplicationRenegotiatedByCorporation": {
+   "first": "ui/shared/neocom/corporation/applications.py:159",
+   "refs": 7,
+   "row": "crpApplicationRenegotiatedByCorporation"
+  },
+  "dgmEffActivation": {
+   "first": "environment/godma.py:1567",
+   "refs": 2,
+   "row": "dgmEffActivation"
+  },
+  "dgmEffTarget": {
+   "first": "environment/godma.py:1567",
+   "refs": 2,
+   "row": "dgmEffTarget"
+  },
+  "dgmTauConstant": {
+   "first": "environment/godma.py:1269",
+   "refs": 2,
+   "row": "dgmTauConstant"
+  },
+  "frequencyDay": {
+   "first": "ui/station/market/pricehistorychart.py:143",
+   "refs": 1,
+   "row": "frequencyDay"
+  },
+  "frequencyHour": {
+   "first": "ui/station/market/pricehistorychart.py:143",
+   "refs": 1,
+   "row": "frequencyHour"
+  },
+  "frequencyMinute15": {
+   "first": "ui/station/market/pricehistorychart.py:143",
+   "refs": 1,
+   "row": "frequencyMinute15"
+  },
+  "frequencyWeek": {
+   "first": "ui/station/market/pricehistorychart.py:143",
+   "refs": 1,
+   "row": "frequencyWeek"
+  },
+  "gangLeaderRole": {
+   "first": "sys/sessions.py:4217",
+   "refs": 2,
+   "row": "gangLeaderRole"
+  },
+  "ixCategoryID": {
+   "first": "sys/cfg.py:793",
+   "refs": 5,
+   "row": "ixCategoryID"
+  },
+  "ixCustomInfo": {
+   "first": "sys/cfg.py:665",
+   "refs": 5,
+   "row": "ixCustomInfo"
+  },
+  "ixFlag": {
+   "first": "environment/godma.py:1799",
+   "refs": 5,
+   "row": "ixFlag"
+  },
+  "ixGroupID": {
+   "first": "sys/cfg.py:779",
+   "refs": 4,
+   "row": "ixGroupID"
+  },
+  "ixItemID": {
+   "first": "ui/deco/container.py:685",
+   "refs": 8,
+   "row": "ixItemID"
+  },
+  "ixLocationID": {
+   "first": "environment/godma.py:1795",
+   "refs": 6,
+   "row": "ixLocationID"
+  },
+  "ixOwnerID": {
+   "first": "ui/station/missions/base_missions.py:69",
+   "refs": 3,
+   "row": "ixOwnerID"
+  },
+  "ixQuantity": {
+   "first": "ui/station/missions/base_missions.py:69",
+   "refs": 1,
+   "row": "ixQuantity"
+  },
+  "ixSingleton": {
+   "first": "sys/cfg.py:773",
+   "refs": 4,
+   "row": "ixSingleton"
+  },
+  "ixTypeID": {
+   "first": "sys/cfg.py:2731",
+   "refs": 3,
+   "row": "ixTypeID"
+  },
+  "locationAbstract": {
+   "first": "sys/sessions.py:4101",
+   "refs": 3,
+   "row": "locationAbstract"
+  },
+  "locationCorporation": {
+   "first": "ui/shared/neocom/assetsinfo.py:635",
+   "refs": 3,
+   "row": "locationCorporation"
+  },
+  "locationGraveyard": {
+   "first": "ui/shared/neocom/assetsinfo.py:647",
+   "refs": 2,
+   "row": "locationGraveyard"
+  },
+  "locationJunkyard": {
+   "first": "ui/shared/neocom/assetsinfo.py:647",
+   "refs": 2,
+   "row": "locationJunkyard"
+  },
+  "locationRecycler": {
+   "first": "ui/shared/neocom/assetsinfo.py:647",
+   "refs": 2,
+   "row": "locationRecycler"
+  },
+  "locationSystem": {
+   "first": "ui/shared/neocom/assetsinfo.py:647",
+   "refs": 2,
+   "row": "locationSystem"
+  },
+  "locationTemp": {
+   "first": "ui/shared/neocom/assetsinfo.py:647",
+   "refs": 2,
+   "row": "locationTemp"
+  },
+  "locationUniverse": {
+   "first": "ui/shared/infosvc.py:933",
+   "refs": 14,
+   "row": "locationUniverse"
+  },
+  "maxCargoContainerTransferDistance": {
+   "first": "ui/inflight/navigation.py:603",
+   "refs": 2,
+   "row": "maxCargoContainerTransferDistance"
+  },
+  "maxDockingDistance": {
+   "first": "ui/inflight/navigation.py:597",
+   "refs": 2,
+   "row": "maxDockingDistance"
+  },
+  "maxStargateJumpingDistance": {
+   "first": "parklife/autopilot.py:211",
+   "refs": 2,
+   "row": "maxStargateJumpingDistance"
+  },
+  "minWarpDistance": {
+   "first": "parklife/autopilot.py:221",
+   "refs": 6,
+   "row": "minWarpDistance"
+  },
+  "ownerCONCORD": {
+   "first": "ui/shared/neocom/charactersheet.py:573",
+   "refs": 1,
+   "row": "ownerCONCORD"
+  },
+  "ownerMarket": {
+   "first": "ui/shared/comtool/base.py:1245",
+   "refs": 4,
+   "row": "ownerMarket"
+  },
+  "ownerNone": {
+   "first": "parklife/consider.py:103",
+   "refs": 1,
+   "row": "ownerNone"
+  },
+  "ownerStation": {
+   "first": "ui/station/lobby.py:715",
+   "refs": 2,
+   "row": "ownerStation"
+  },
+  "ownerSystem": {
+   "first": "parklife/consider.py:103",
+   "refs": 1,
+   "row": "ownerSystem"
+  },
+  "rangeConstellation": {
+   "first": "ui/station/market/base_market.py:1335",
+   "refs": 6,
+   "row": "rangeConstellation"
+  },
+  "rangeRegion": {
+   "first": "ui/station/market/base_market.py:1339",
+   "refs": 10,
+   "row": "rangeRegion"
+  },
+  "rangeSolarSystem": {
+   "first": "ui/station/market/base_market.py:1331",
+   "refs": 6,
+   "row": "rangeSolarSystem"
+  },
+  "rangeStation": {
+   "first": "ui/deco/item.py:731",
+   "refs": 10,
+   "row": "rangeStation"
+  },
+  "refATMDeposit": {
+   "first": "util/format.py:479",
+   "refs": 1,
+   "row": "refATMDeposit"
+  },
+  "refATMWithdraw": {
+   "first": "util/format.py:475",
+   "refs": 1,
+   "row": "refATMWithdraw"
+  },
+  "refAgents_gain": {
+   "first": "util/format.py:519",
+   "refs": 1,
+   "row": "refAgents_gain"
+  },
+  "refAgents_loss": {
+   "first": "util/format.py:523",
+   "refs": 1,
+   "row": "refAgents_loss"
+  },
+  "refBackwardCompatible": {
+   "first": "util/format.py:443",
+   "refs": 1,
+   "row": "refBackwardCompatible"
+  },
+  "refBounty": {
+   "first": "util/format.py:531",
+   "refs": 1,
+   "row": "refBounty"
+  },
+  "refBountyPrize": {
+   "first": "util/format.py:535",
+   "refs": 1,
+   "row": "refBountyPrize"
+  },
+  "refCloneActivation": {
+   "first": "util/format.py:487",
+   "refs": 1,
+   "row": "refCloneActivation"
+  },
+  "refCorporationPayment": {
+   "first": "util/format.py:499",
+   "refs": 1,
+   "row": "refCorporationPayment"
+  },
+  "refCourierMissionEscrow": {
+   "first": "util/format.py:561",
+   "refs": 1,
+   "row": "refCourierMissionEscrow"
+  },
+  "refDockingFee": {
+   "first": "util/format.py:507",
+   "refs": 1,
+   "row": "refDockingFee"
+  },
+  "refFactorySlotRentalFee": {
+   "first": "util/format.py:515",
+   "refs": 1,
+   "row": "refFactorySlotRentalFee"
+  },
+  "refGMCashTransfer": {
+   "first": "util/format.py:471",
+   "refs": 1,
+   "row": "refGMCashTransfer"
+  },
+  "refInheritance": {
+   "first": "util/format.py:491",
+   "refs": 1,
+   "row": "refInheritance"
+  },
+  "refInsurance": {
+   "first": "util/format.py:539",
+   "refs": 1,
+   "row": "refInsurance"
+  },
+  "refMarketTransaction": {
+   "first": "util/format.py:467",
+   "refs": 1,
+   "row": "refMarketTransaction"
+  },
+  "refMissionCompletion": {
+   "first": "util/format.py:553",
+   "refs": 1,
+   "row": "refMissionCompletion"
+  },
+  "refMissionCost": {
+   "first": "util/format.py:565",
+   "refs": 1,
+   "row": "refMissionCost"
+  },
+  "refMissionExpiration": {
+   "first": "util/format.py:549",
+   "refs": 1,
+   "row": "refMissionExpiration"
+  },
+  "refMissionReward": {
+   "first": "util/format.py:483",
+   "refs": 1,
+   "row": "refMissionReward"
+  },
+  "refOfficeRentalFee": {
+   "first": "util/format.py:511",
+   "refs": 1,
+   "row": "refOfficeRentalFee"
+  },
+  "refPlayerDonation": {
+   "first": "util/format.py:495",
+   "refs": 1,
+   "row": "refPlayerDonation"
+  },
+  "refPlayerTrading": {
+   "first": "util/format.py:463",
+   "refs": 1,
+   "row": "refPlayerTrading"
+  },
+  "refRepairBill": {
+   "first": "util/format.py:527",
+   "refs": 1,
+   "row": "refRepairBill"
+  },
+  "refShares": {
+   "first": "util/format.py:557",
+   "refs": 1,
+   "row": "refShares"
+  },
+  "refSkipLog": {
+   "first": "ui/shared/neocom/corporation/accounts.py:279",
+   "refs": 2,
+   "row": "refSkipLog"
+  },
+  "refUndefined": {
+   "first": "util/format.py:453",
+   "refs": 1,
+   "row": "refUndefined"
+  },
+  "rentalPeriodOffice": {
+   "first": "ui/station/lobby.py:627",
+   "refs": 1,
+   "row": "rentalPeriodOffice"
+  },
+  "simulationTimeStep": {
+   "first": "remote/michelle.py:379",
+   "refs": 1,
+   "row": "simulationTimeStep"
+  },
+  "stationServiceAssassinationMissions": {
+   "first": "ui/station/lobby.py:159",
+   "refs": 1,
+   "row": "stationServiceAssassinationMissions"
+  },
+  "stationServiceBlackMarket": {
+   "first": "ui/station/lobby.py:159",
+   "refs": 1,
+   "row": "stationServiceBlackMarket"
+  },
+  "stationServiceBountyMissions": {
+   "first": "ui/station/lobby.py:159",
+   "refs": 1,
+   "row": "stationServiceBountyMissions"
+  },
+  "stationServiceCloning": {
+   "first": "ui/station/lobby.py:159",
+   "refs": 1,
+   "row": "stationServiceCloning"
+  },
+  "stationServiceCourierMissions": {
+   "first": "ui/station/lobby.py:159",
+   "refs": 1,
+   "row": "stationServiceCourierMissions"
+  },
+  "stationServiceDNATherapy": {
+   "first": "ui/station/lobby.py:159",
+   "refs": 1,
+   "row": "stationServiceDNATherapy"
+  },
+  "stationServiceFactory": {
+   "first": "ui/station/lobby.py:159",
+   "refs": 1,
+   "row": "stationServiceFactory"
+  },
+  "stationServiceFitting": {
+   "first": "ui/station/lobby.py:159",
+   "refs": 1,
+   "row": "stationServiceFitting"
+  },
+  "stationServiceGambling": {
+   "first": "ui/station/lobby.py:159",
+   "refs": 1,
+   "row": "stationServiceGambling"
+  },
+  "stationServiceInterbus": {
+   "first": "ui/station/lobby.py:159",
+   "refs": 1,
+   "row": "stationServiceInterbus"
+  },
+  "stationServiceLaboratory": {
+   "first": "ui/station/lobby.py:159",
+   "refs": 1,
+   "row": "stationServiceLaboratory"
+  },
+  "stationServiceMarket": {
+   "first": "ui/deco/item.py:423",
+   "refs": 6,
+   "row": "stationServiceMarket"
+  },
+  "stationServiceNews": {
+   "first": "ui/station/lobby.py:159",
+   "refs": 1,
+   "row": "stationServiceNews"
+  },
+  "stationServiceRefinery": {
+   "first": "ui/station/lobby.py:159",
+   "refs": 1,
+   "row": "stationServiceRefinery"
+  },
+  "stationServiceRepairFacilities": {
+   "first": "ui/station/lobby.py:159",
+   "refs": 1,
+   "row": "stationServiceRepairFacilities"
+  },
+  "stationServiceReprocessingPlant": {
+   "first": "ui/station/lobby.py:159",
+   "refs": 1,
+   "row": "stationServiceReprocessingPlant"
+  },
+  "stationServiceStockExchange": {
+   "first": "ui/station/lobby.py:159",
+   "refs": 1,
+   "row": "stationServiceStockExchange"
+  },
+  "stationServiceStorage": {
+   "first": "ui/station/lobby.py:159",
+   "refs": 1,
+   "row": "stationServiceStorage"
+  },
+  "stationServiceSurgery": {
+   "first": "ui/station/lobby.py:159",
+   "refs": 1,
+   "row": "stationServiceSurgery"
+  },
+  "timeframeDay": {
+   "first": "ui/station/market/pricehistorychart.py:143",
+   "refs": 3,
+   "row": "timeframeDay"
+  },
+  "timeframeDay5": {
+   "first": "ui/station/market/pricehistorychart.py:143",
+   "refs": 1,
+   "row": "timeframeDay5"
+  },
+  "timeframeMonth": {
+   "first": "ui/station/market/pricehistorychart.py:143",
+   "refs": 4,
+   "row": "timeframeMonth"
+  },
+  "timeframeYear": {
+   "first": "ui/station/market/base_market.py:1605",
+   "refs": 4,
+   "row": "timeframeYear"
+  },
+  "voteCEO": {
+   "first": "ui/shared/neocom/corporation/sanctionableactions.py:103",
+   "refs": 12,
+   "row": "voteCEO"
+  },
+  "voteGeneral": {
+   "first": "ui/shared/neocom/corporation/sanctionableactions.py:103",
+   "refs": 11,
+   "row": "voteGeneral"
+  },
+  "voteKickMember": {
+   "first": "ui/shared/neocom/corporation/sanctionableactions.py:103",
+   "refs": 12,
+   "row": "voteKickMember"
+  },
+  "voteShares": {
+   "first": "ui/shared/neocom/corporation/sanctionableactions.py:103",
+   "refs": 10,
+   "row": "voteShares"
+  },
+  "voteWar": {
+   "first": "ui/shared/neocom/corporation/sanctionableactions.py:103",
+   "refs": 12,
+   "row": "voteWar"
+  }
+ },
+ "config.BulkData.dgmattribs": {
+  "attributeAgility": {
+   "first": "ui/shared/infosvc.py:75",
+   "refs": 1,
+   "row": "Agility"
+  },
+  "attributeArmorBonus": {
+   "first": "ui/station/fitting/base_fitting.py:521",
+   "refs": 1,
+   "row": "ArmorBonus"
+  },
+  "attributeArmorEmDamageResonance": {
+   "first": "ui/shared/infosvc.py:75",
+   "refs": 1,
+   "row": "ArmorEmDamageResonance"
+  },
+  "attributeArmorExplosiveDamageResonance": {
+   "first": "ui/shared/infosvc.py:75",
+   "refs": 1,
+   "row": "ArmorExplosiveDamageResonance"
+  },
+  "attributeArmorKineticDamageResonance": {
+   "first": "ui/shared/infosvc.py:75",
+   "refs": 1,
+   "row": "ArmorKineticDamageResonance"
+  },
+  "attributeArmorThermalDamageResonance": {
+   "first": "ui/shared/infosvc.py:75",
+   "refs": 1,
+   "row": "ArmorThermalDamageResonance"
+  },
+  "attributeCapacitorBonus": {
+   "first": "ui/station/fitting/base_fitting.py:525",
+   "refs": 1,
+   "row": "CapacitorBonus"
+  },
+  "attributeCapacitorRechargeRateMultiplier": {
+   "first": "ui/station/fitting/base_fitting.py:561",
+   "refs": 1,
+   "row": "CapacitorRechargeRateMultiplier"
+  },
+  "attributeCapacity": {
+   "first": "ui/shared/infosvc.py:1501",
+   "refs": 4,
+   "row": "Capacity"
+  },
+  "attributeCapacityBonus": {
+   "first": "ui/station/fitting/base_fitting.py:517",
+   "refs": 1,
+   "row": "CapacityBonus"
+  },
+  "attributeCargoCapacityMultiplier": {
+   "first": "ui/station/fitting/base_fitting.py:573",
+   "refs": 1,
+   "row": "CargoCapacityMultiplier"
+  },
+  "attributeChargeSize": {
+   "first": "ui/deco/item.py:261",
+   "refs": 9,
+   "row": "ChargeSize"
+  },
+  "attributeCharisma": {
+   "first": "ui/shared/neocom/charactersheet.py:419",
+   "refs": 1,
+   "row": "Charisma"
+  },
+  "attributeCpu": {
+   "first": "ui/shared/infosvc.py:1505",
+   "refs": 4,
+   "row": "Cpu"
+  },
+  "attributeCpuLoad": {
+   "first": "ui/station/fitting/base_fitting.py:537",
+   "refs": 1,
+   "row": "CpuLoad"
+  },
+  "attributeCpuMultiplier": {
+   "first": "ui/station/fitting/base_fitting.py:529",
+   "refs": 1,
+   "row": "CpuMultiplier"
+  },
+  "attributeDroneBaySlotsLeft": {
+   "first": "ui/station/fitting/base_fitting.py:689",
+   "refs": 1,
+   "row": "DroneBaySlotsLeft"
+  },
+  "attributeDroneCapacity": {
+   "first": "ui/shared/infosvc.py:75",
+   "refs": 1,
+   "row": "DroneCapacity"
+  },
+  "attributeEmDamageResonanceMultiplier": {
+   "first": "ui/station/fitting/base_fitting.py:545",
+   "refs": 1,
+   "row": "EmDamageResonanceMultiplier"
+  },
+  "attributeEntityKillBounty": {
+   "first": "ui/shared/infosvc.py:1369",
+   "refs": 1,
+   "row": "EntityKillBounty"
+  },
+  "attributeExplosiveDamageResonanceMultiplier": {
+   "first": "ui/station/fitting/base_fitting.py:549",
+   "refs": 1,
+   "row": "ExplosiveDamageResonanceMultiplier"
+  },
+  "attributeHiSlots": {
+   "first": "ui/shared/infosvc.py:1457",
+   "refs": 1,
+   "row": "HiSlots"
+  },
+  "attributeIntelligence": {
+   "first": "ui/shared/neocom/charactersheet.py:419",
+   "refs": 1,
+   "row": "Intelligence"
+  },
+  "attributeKineticDamageResonanceMultiplier": {
+   "first": "ui/station/fitting/base_fitting.py:553",
+   "refs": 1,
+   "row": "KineticDamageResonanceMultiplier"
+  },
+  "attributeLauncherGroup": {
+   "first": "ui/inflight/shipmodulebutton.py:1119",
+   "refs": 1,
+   "row": "LauncherGroup"
+  },
+  "attributeLauncherSlotsLeft": {
+   "first": "ui/shared/infosvc.py:1457",
+   "refs": 2,
+   "row": "LauncherSlotsLeft"
+  },
+  "attributeLowSlots": {
+   "first": "ui/shared/infosvc.py:1457",
+   "refs": 1,
+   "row": "LowSlots"
+  },
+  "attributeMass": {
+   "first": "ui/shared/infosvc.py:75",
+   "refs": 1,
+   "row": "Mass"
+  },
+  "attributeMaxLockedTargets": {
+   "first": "ui/shared/infosvc.py:75",
+   "refs": 2,
+   "row": "MaxLockedTargets"
+  },
+  "attributeMaxTargetRange": {
+   "first": "ui/shared/infosvc.py:75",
+   "refs": 3,
+   "row": "MaxTargetRange"
+  },
+  "attributeMaxTargetRangeMultiplier": {
+   "first": "ui/station/fitting/base_fitting.py:581",
+   "refs": 1,
+   "row": "MaxTargetRangeMultiplier"
+  },
+  "attributeMaxVelocity": {
+   "first": "ui/shared/infosvc.py:75",
+   "refs": 1,
+   "row": "MaxVelocity"
+  },
+  "attributeMedSlots": {
+   "first": "ui/shared/infosvc.py:1457",
+   "refs": 1,
+   "row": "MedSlots"
+  },
+  "attributeMemory": {
+   "first": "ui/shared/neocom/charactersheet.py:419",
+   "refs": 1,
+   "row": "Memory"
+  },
+  "attributePerception": {
+   "first": "ui/shared/neocom/charactersheet.py:419",
+   "refs": 1,
+   "row": "Perception"
+  },
+  "attributePower": {
+   "first": "ui/shared/infosvc.py:1505",
+   "refs": 4,
+   "row": "Power"
+  },
+  "attributePowerLoad": {
+   "first": "ui/station/fitting/base_fitting.py:541",
+   "refs": 1,
+   "row": "PowerLoad"
+  },
+  "attributePowerOutputMultiplier": {
+   "first": "ui/station/fitting/base_fitting.py:533",
+   "refs": 1,
+   "row": "PowerOutputMultiplier"
+  },
+  "attributePrimaryAttribute": {
+   "first": "ui/shared/infosvc.py:401",
+   "refs": 1,
+   "row": "PrimaryAttribute"
+  },
+  "attributeRechargeRate": {
+   "first": "ui/shared/infosvc.py:75",
+   "refs": 1,
+   "row": "RechargeRate"
+  },
+  "attributeRequiredSkill1": {
+   "first": "ui/shared/infosvc.py:1505",
+   "refs": 4,
+   "row": "RequiredSkill1"
+  },
+  "attributeRequiredSkill1Level": {
+   "first": "ui/shared/infosvc.py:1505",
+   "refs": 3,
+   "row": "RequiredSkill1Level"
+  },
+  "attributeRequiredSkill2": {
+   "first": "ui/shared/infosvc.py:1505",
+   "refs": 4,
+   "row": "RequiredSkill2"
+  },
+  "attributeRequiredSkill2Level": {
+   "first": "ui/shared/infosvc.py:1505",
+   "refs": 3,
+   "row": "RequiredSkill2Level"
+  },
+  "attributeRequiredSkill3": {
+   "first": "ui/shared/infosvc.py:1505",
+   "refs": 4,
+   "row": "RequiredSkill3"
+  },
+  "attributeRequiredSkill3Level": {
+   "first": "ui/shared/infosvc.py:1505",
+   "refs": 3,
+   "row": "RequiredSkill3Level"
+  },
+  "attributeScanGravimetricStrength": {
+   "first": "ui/shared/infosvc.py:75",
+   "refs": 1,
+   "row": "ScanGravimetricStrength"
+  },
+  "attributeScanLadarStrength": {
+   "first": "ui/shared/infosvc.py:75",
+   "refs": 1,
+   "row": "ScanLadarStrength"
+  },
+  "attributeScanMagnetometricStrength": {
+   "first": "ui/shared/infosvc.py:75",
+   "refs": 1,
+   "row": "ScanMagnetometricStrength"
+  },
+  "attributeScanRadarStrength": {
+   "first": "ui/shared/infosvc.py:75",
+   "refs": 1,
+   "row": "ScanRadarStrength"
+  },
+  "attributeScanSpeed": {
+   "first": "ui/shared/infosvc.py:75",
+   "refs": 3,
+   "row": "ScanSpeed"
+  },
+  "attributeScanSpeedMultiplier": {
+   "first": "ui/station/fitting/base_fitting.py:585",
+   "refs": 1,
+   "row": "ScanSpeedMultiplier"
+  },
+  "attributeSecondaryAttribute": {
+   "first": "ui/shared/infosvc.py:401",
+   "refs": 1,
+   "row": "SecondaryAttribute"
+  },
+  "attributeShieldBonus": {
+   "first": "ui/station/fitting/base_fitting.py:517",
+   "refs": 1,
+   "row": "ShieldBonus"
+  },
+  "attributeShieldEmDamageResonance": {
+   "first": "ui/shared/infosvc.py:75",
+   "refs": 1,
+   "row": "ShieldEmDamageResonance"
+  },
+  "attributeShieldExplosiveDamageResonance": {
+   "first": "ui/shared/infosvc.py:75",
+   "refs": 1,
+   "row": "ShieldExplosiveDamageResonance"
+  },
+  "attributeShieldKineticDamageResonance": {
+   "first": "ui/shared/infosvc.py:75",
+   "refs": 1,
+   "row": "ShieldKineticDamageResonance"
+  },
+  "attributeShieldRechargeRate": {
+   "first": "ui/shared/infosvc.py:75",
+   "refs": 1,
+   "row": "ShieldRechargeRate"
+  },
+  "attributeShieldRechargeRateMultiplier": {
+   "first": "ui/station/fitting/base_fitting.py:565",
+   "refs": 1,
+   "row": "ShieldRechargeRateMultiplier"
+  },
+  "attributeShieldThermalDamageResonance": {
+   "first": "ui/shared/infosvc.py:75",
+   "refs": 1,
+   "row": "ShieldThermalDamageResonance"
+  },
+  "attributeSpeedBonus": {
+   "first": "ui/station/fitting/base_fitting.py:577",
+   "refs": 1,
+   "row": "SpeedBonus"
+  },
+  "attributeStructureHPMultiplier": {
+   "first": "ui/station/fitting/base_fitting.py:569",
+   "refs": 1,
+   "row": "StructureHPMultiplier"
+  },
+  "attributeThermalDamageResonanceMultiplier": {
+   "first": "ui/station/fitting/base_fitting.py:557",
+   "refs": 1,
+   "row": "ThermalDamageResonanceMultiplier"
+  },
+  "attributeTurretSlotsLeft": {
+   "first": "ui/shared/infosvc.py:1457",
+   "refs": 2,
+   "row": "TurretSlotsLeft"
+  },
+  "attributeVolume": {
+   "first": "ui/shared/infosvc.py:1513",
+   "refs": 2,
+   "row": "Volume"
+  },
+  "attributeWillpower": {
+   "first": "ui/shared/neocom/charactersheet.py:419",
+   "refs": 1,
+   "row": "Willpower"
+  }
+ },
+ "config.BulkData.dgmeffects": {
+  "effectArmorResonanceMultiply": {
+   "first": "ui/station/fitting/base_fitting.py:733",
+   "refs": 1,
+   "row": "ArmorResonanceMultiply"
+  },
+  "effectHiPower": {
+   "first": "ui/deco/item.py:303",
+   "refs": 7,
+   "row": "HiPower"
+  },
+  "effectLoPower": {
+   "first": "ui/deco/item.py:303",
+   "refs": 7,
+   "row": "LoPower"
+  },
+  "effectMedPower": {
+   "first": "ui/deco/item.py:303",
+   "refs": 7,
+   "row": "MedPower"
+  },
+  "effectShieldResonanceMultiply": {
+   "first": "ui/station/fitting/base_fitting.py:737",
+   "refs": 1,
+   "row": "ShieldResonanceMultiply"
+  },
+  "effectShieldResonanceMultiplyOnline": {
+   "first": "ui/station/fitting/base_fitting.py:737",
+   "refs": 1,
+   "row": "ShieldResonanceMultiplyOnline"
+  }
+ },
+ "config.BulkData.groups": {
+  "groupAmmo": {
+   "first": "ui/deco/item.py:261",
+   "refs": 1,
+   "row": "Ammo"
+  },
+  "groupAsteroid": {
+   "first": "environment/spaceObject/repository.py:17",
+   "refs": 22,
+   "row": "Asteroid"
+  },
+  "groupAsteroidBelt": {
+   "first": "environment/spaceObject/repository.py:17",
+   "refs": 15,
+   "row": "AsteroidBelt"
+  },
+  "groupBattleship": {
+   "first": "environment/spaceObject/ship.py:481",
+   "refs": 4,
+   "row": "Battleship"
+  },
+  "groupBeacon": {
+   "first": "ui/inflight/bracket.py:31",
+   "refs": 2,
+   "row": "Beacon"
+  },
+  "groupBiomass": {
+   "first": "environment/spaceObject/repository.py:17",
+   "refs": 4,
+   "row": "Biomass"
+  },
+  "groupBooster": {
+   "first": "ui/deco/item.py:183",
+   "refs": 1,
+   "row": "Booster"
+  },
+  "groupCapacitorBooster": {
+   "first": "sys/cfg.py:1051",
+   "refs": 1,
+   "row": "CapacitorBooster"
+  },
+  "groupCapsule": {
+   "first": "environment/spaceObject/repository.py:17",
+   "refs": 6,
+   "row": "Capsule"
+  },
+  "groupCargoContainer": {
+   "first": "environment/spaceObject/repository.py:17",
+   "refs": 14,
+   "row": "CargoContainer"
+  },
+  "groupCharacter": {
+   "first": "sys/cfg.py:2381",
+   "refs": 21,
+   "row": "Character"
+  },
+  "groupCloud": {
+   "first": "environment/spaceObject/repository.py:17",
+   "refs": 4,
+   "row": "Cloud"
+  },
+  "groupCombatDrone": {
+   "first": "environment/spaceObject/repository.py:17",
+   "refs": 7,
+   "row": "CombatDrone"
+  },
+  "groupComet": {
+   "first": "environment/spaceObject/repository.py:17",
+   "refs": 3,
+   "row": "Comet"
+  },
+  "groupConcordDrone": {
+   "first": "environment/spaceObject/repository.py:17",
+   "refs": 1,
+   "row": "ConcordDrone"
+  },
+  "groupConstellation": {
+   "first": "sys/cfg.py:1047",
+   "refs": 17,
+   "row": "Constellation"
+  },
+  "groupConstructionPlatform": {
+   "first": "parklife/gameui.py:1153",
+   "refs": 5,
+   "row": "ConstructionPlatform"
+  },
+  "groupConvoy": {
+   "first": "environment/spaceObject/repository.py:17",
+   "refs": 1,
+   "row": "Convoy"
+  },
+  "groupConvoyDrone": {
+   "first": "environment/spaceObject/repository.py:17",
+   "refs": 1,
+   "row": "ConvoyDrone"
+  },
+  "groupCorporation": {
+   "first": "ui/shared/infosvc.py:1075",
+   "refs": 5,
+   "row": "Corporation"
+  },
+  "groupCruiser": {
+   "first": "environment/spaceObject/ship.py:477",
+   "refs": 4,
+   "row": "Cruiser"
+  },
+  "groupCyberimplant": {
+   "first": "ui/deco/item.py:181",
+   "refs": 1,
+   "row": "Cyberimplant"
+  },
+  "groupEnergyWeapon": {
+   "first": "environment/spaceObject/ship.py:309",
+   "refs": 5,
+   "row": "EnergyWeapon"
+  },
+  "groupFaction": {
+   "first": "ui/shared/neocom/charactersheet.py:349",
+   "refs": 1,
+   "row": "Faction"
+  },
+  "groupFactionDrone": {
+   "first": "environment/spaceObject/repository.py:17",
+   "refs": 1,
+   "row": "FactionDrone"
+  },
+  "groupFrigate": {
+   "first": "ui/inflight/bracket.py:31",
+   "refs": 2,
+   "row": "Frigate"
+  },
+  "groupHybridWeapon": {
+   "first": "environment/spaceObject/ship.py:309",
+   "refs": 4,
+   "row": "HybridWeapon"
+  },
+  "groupIndustrial": {
+   "first": "ui/inflight/bracket.py:31",
+   "refs": 2,
+   "row": "Industrial"
+  },
+  "groupLCODrone": {
+   "first": "environment/spaceObject/repository.py:17",
+   "refs": 1,
+   "row": "LCODrone"
+  },
+  "groupLargeCollidableObject": {
+   "first": "environment/spaceObject/repository.py:17",
+   "refs": 2,
+   "row": "LargeCollidableObject"
+  },
+  "groupMineral": {
+   "first": "ui/shared/neocom/assetsinfo.py:491",
+   "refs": 7,
+   "row": "Mineral"
+  },
+  "groupMiningDrone": {
+   "first": "environment/spaceObject/repository.py:17",
+   "refs": 7,
+   "row": "MiningDrone"
+  },
+  "groupMiningLaser": {
+   "first": "environment/spaceObject/ship.py:309",
+   "refs": 5,
+   "row": "MiningLaser"
+  },
+  "groupMissile": {
+   "first": "environment/spaceObject/repository.py:17",
+   "refs": 2,
+   "row": "Missile"
+  },
+  "groupMissileLauncher": {
+   "first": "sys/cfg.py:1051",
+   "refs": 1,
+   "row": "MissileLauncher"
+  },
+  "groupMobileRefinery": {
+   "first": "environment/spaceObject/repository.py:17",
+   "refs": 2,
+   "row": "MobileRefinery"
+  },
+  "groupMoney": {
+   "first": "ui/deco/item.py:347",
+   "refs": 2,
+   "row": "Money"
+  },
+  "groupMoon": {
+   "first": "environment/spaceObject/repository.py:17",
+   "refs": 25,
+   "row": "Moon"
+  },
+  "groupPirateDrone": {
+   "first": "environment/spaceObject/repository.py:17",
+   "refs": 2,
+   "row": "PirateDrone"
+  },
+  "groupPlanet": {
+   "first": "environment/spaceObject/repository.py:17",
+   "refs": 28,
+   "row": "Planet"
+  },
+  "groupPlanetaryCloud": {
+   "first": "environment/spaceObject/repository.py:17",
+   "refs": 1,
+   "row": "PlanetaryCloud"
+  },
+  "groupPoliceDrone": {
+   "first": "environment/spaceObject/repository.py:17",
+   "refs": 2,
+   "row": "PoliceDrone"
+  },
+  "groupProjectileWeapon": {
+   "first": "environment/spaceObject/ship.py:309",
+   "refs": 4,
+   "row": "ProjectileWeapon"
+  },
+  "groupProtectiveSentryGun": {
+   "first": "environment/spaceObject/repository.py:17",
+   "refs": 2,
+   "row": "ProtectiveSentryGun"
+  },
+  "groupProximityDrone": {
+   "first": "parklife/drone.py:163",
+   "refs": 2,
+   "row": "ProximityDrone"
+  },
+  "groupRegion": {
+   "first": "sys/cfg.py:1047",
+   "refs": 15,
+   "row": "Region"
+  },
+  "groupRogueDrone": {
+   "first": "environment/spaceObject/repository.py:17",
+   "refs": 1,
+   "row": "RogueDrone"
+  },
+  "groupRookieship": {
+   "first": "ui/inflight/bracket.py:31",
+   "refs": 1,
+   "row": "Rookieship"
+  },
+  "groupSentryGun": {
+   "first": "environment/spaceObject/repository.py:17",
+   "refs": 3,
+   "row": "SentryGun"
+  },
+  "groupShieldBooster": {
+   "first": "ui/station/tutorial.py:125",
+   "refs": 2,
+   "row": "ShieldBooster"
+  },
+  "groupSolarSystem": {
+   "first": "net/machoNet.py:2843",
+   "refs": 34,
+   "row": "SolarSystem"
+  },
+  "groupSpawnContainer": {
+   "first": "parklife/targetMgr.py:715",
+   "refs": 3,
+   "row": "SpawnContainer"
+  },
+  "groupStargate": {
+   "first": "environment/spaceObject/repository.py:17",
+   "refs": 19,
+   "row": "Stargate"
+  },
+  "groupStation": {
+   "first": "environment/spaceObject/repository.py:17",
+   "refs": 36,
+   "row": "Station"
+  },
+  "groupSun": {
+   "first": "environment/spaceObject/repository.py:17",
+   "refs": 9,
+   "row": "Sun"
+  },
+  "groupSystem": {
+   "first": "sys/sessions.py:3243",
+   "refs": 1,
+   "row": "System"
+  },
+  "groupTitan": {
+   "first": "ui/inflight/bracket.py:31",
+   "refs": 1,
+   "row": "Titan"
+  },
+  "groupTorpedo": {
+   "first": "environment/spaceObject/repository.py:17",
+   "refs": 1,
+   "row": "Torpedo"
+  },
+  "groupTutorialDrone": {
+   "first": "environment/spaceObject/repository.py:17",
+   "refs": 1,
+   "row": "TutorialDrone"
+  },
+  "groupVoucher": {
+   "first": "sys/cfg.py:3051",
+   "refs": 12,
+   "row": "Voucher"
+  },
+  "groupWreck": {
+   "first": "parklife/envAudioMgr.py:143",
+   "refs": 4,
+   "row": "Wreck"
+  }
+ },
+ "config.BulkData.types": {
+  "typeBasicClone": {
+   "first": "ui/station/medical/medical.py:211",
+   "refs": 1,
+   "row": "BasicClone"
+  },
+  "typeBeacon": {
+   "first": "ui/inflight/bracket.py:33",
+   "refs": 1,
+   "row": "Beacon"
+  },
+  "typeBookmark": {
+   "first": "sys/cfg.py:3139",
+   "refs": 6,
+   "row": "Bookmark"
+  },
+  "typeCharacter": {
+   "first": "ui/shared/neocom/charactersheet.py:417",
+   "refs": 3,
+   "row": "Character"
+  },
+  "typeCompanyShares": {
+   "first": "sys/cfg.py:3129",
+   "refs": 6,
+   "row": "CompanyShares"
+  },
+  "typeConstellation": {
+   "first": "ui/shared/maps/cloud.py:465",
+   "refs": 6,
+   "row": "Constellation"
+  },
+  "typeCorporation": {
+   "first": "sys/sessions.py:3239",
+   "refs": 10,
+   "row": "Corporation"
+  },
+  "typeCorporationManagement": {
+   "first": "ui/shared/neocom/corporation/base_corporation.py:1977",
+   "refs": 1,
+   "row": "CorporationManagement"
+  },
+  "typeCredits": {
+   "first": "sys/cfg.py:1351",
+   "refs": 3,
+   "row": "Credits"
+  },
+  "typeDuplicating": {
+   "first": "ui/station/facilities/facility.py:1411",
+   "refs": 1,
+   "row": "Duplicating"
+  },
+  "typeFactoryFolder": {
+   "first": "ui/shared/neocom/bills.py:417",
+   "refs": 4,
+   "row": "FactoryFolder"
+  },
+  "typeIndustry": {
+   "first": "ui/station/factories/base_factories.py:51",
+   "refs": 2,
+   "row": "Industry"
+  },
+  "typeMoon": {
+   "first": "environment/spaceObject/planet.py:133",
+   "refs": 3,
+   "row": "Moon"
+  },
+  "typeOfficeFolder": {
+   "first": "ui/shared/neocom/bills.py:421",
+   "refs": 4,
+   "row": "OfficeFolder"
+  },
+  "typePlanetGas": {
+   "first": "environment/spaceObject/planet.py:133",
+   "refs": 2,
+   "row": "PlanetGas"
+  },
+  "typePlanetIce": {
+   "first": "environment/spaceObject/planet.py:133",
+   "refs": 2,
+   "row": "PlanetIce"
+  },
+  "typePlanetSolid": {
+   "first": "environment/spaceObject/planet.py:133",
+   "refs": 2,
+   "row": "PlanetSolid"
+  },
+  "typePlasticWrap": {
+   "first": "environment/invCache.py:607",
+   "refs": 6,
+   "row": "PlasticWrap"
+  },
+  "typePlayerKill": {
+   "first": "sys/cfg.py:3149",
+   "refs": 1,
+   "row": "PlayerKill"
+  },
+  "typeRegion": {
+   "first": "ui/shared/maps/label.py:159",
+   "refs": 6,
+   "row": "Region"
+  },
+  "typeReverseEngineering": {
+   "first": "ui/station/facilities/facility.py:1425",
+   "refs": 1,
+   "row": "ReverseEngineering"
+  },
+  "typeScience": {
+   "first": "ui/station/researchfacility/base_researchfacility.py:51",
+   "refs": 2,
+   "row": "Science"
+  },
+  "typeShip": {
+   "first": "sys/cfg.py:2733",
+   "refs": 1,
+   "row": "Ship"
+  },
+  "typeSmallSecureContainer": {
+   "first": "ui/deco/item.py:459",
+   "refs": 1,
+   "row": "SmallSecureContainer"
+  },
+  "typeSolarSystem": {
+   "first": "sys/sessions.py:4163",
+   "refs": 9,
+   "row": "SolarSystem"
+  },
+  "typeTourists": {
+   "first": "sys/cfg.py:1355",
+   "refs": 1,
+   "row": "Tourists"
+  }
+ },
+ "config.Flags": {
+  "flagAutoFit": {
+   "first": "ui/deco/item.py:703",
+   "refs": 2,
+   "row": "AutoFit"
+  },
+  "flagBooster": {
+   "first": "environment/godma.py:1043",
+   "refs": 4,
+   "row": "Booster"
+  },
+  "flagCargo": {
+   "first": "environment/godma.py:525",
+   "refs": 12,
+   "row": "Cargo"
+  },
+  "flagDroneBay": {
+   "first": "environment/godma.py:519",
+   "refs": 8,
+   "row": "DroneBay"
+  },
+  "flagFactorySlotFirst": {
+   "first": "sys/cfg.py:3287",
+   "refs": 3,
+   "row": "FactorySlotFirst"
+  },
+  "flagFactorySlotLast": {
+   "first": "sys/cfg.py:3287",
+   "refs": 1,
+   "row": "FactorySlotLast"
+  },
+  "flagFixedSlot": {
+   "first": "environment/godma.py:1803",
+   "refs": 4,
+   "row": "FixedSlot"
+  },
+  "flagHangar": {
+   "first": "environment/invCache.py:473",
+   "refs": 28,
+   "row": "Hangar"
+  },
+  "flagImplant": {
+   "first": "environment/godma.py:1027",
+   "refs": 4,
+   "row": "Implant"
+  },
+  "flagLoSlot0": {
+   "first": "environment/godma.py:1803",
+   "refs": 3,
+   "row": "LoSlot0"
+  },
+  "flagNone": {
+   "first": "environment/invCache.py:553",
+   "refs": 4,
+   "row": "None"
+  },
+  "flagPilot": {
+   "first": "environment/godma.py:1803",
+   "refs": 5,
+   "row": "Pilot"
+  },
+  "flagResearchFacilitySlotFirst": {
+   "first": "sys/cfg.py:3301",
+   "refs": 2,
+   "row": "ResearchFacilitySlotFirst"
+  },
+  "flagResearchFacilitySlotLast": {
+   "first": "sys/cfg.py:3301",
+   "refs": 1,
+   "row": "ResearchFacilitySlotLast"
+  },
+  "flagReward": {
+   "first": "environment/invCache.py:375",
+   "refs": 3,
+   "row": "Reward"
+  },
+  "flagSkill": {
+   "first": "environment/godma.py:1011",
+   "refs": 6,
+   "row": "Skill"
+  },
+  "flagSkillInTraining": {
+   "first": "environment/godma.py:1011",
+   "refs": 10,
+   "row": "SkillInTraining"
+  },
+  "flagSlotFirst": {
+   "first": "environment/godma.py:469",
+   "refs": 6,
+   "row": "SlotFirst"
+  },
+  "flagSlotLast": {
+   "first": "environment/godma.py:469",
+   "refs": 6,
+   "row": "SlotLast"
+  },
+  "flagWallet": {
+   "first": "ui/shared/neocom/assetsinfo.py:473",
+   "refs": 8,
+   "row": "Wallet"
+  }
+ },
+ "config.Races": {
+  "raceAmarr": {
+   "first": "ui/station/base.py:343",
+   "refs": 3,
+   "row": "Amarr"
+  },
+  "raceCaldari": {
+   "first": "ui/util/face.py:59",
+   "refs": 2,
+   "row": "Caldari"
+  },
+  "raceGallente": {
+   "first": "ui/station/base.py:347",
+   "refs": 3,
+   "row": "Gallente"
+  },
+  "raceJove": {
+   "first": "ui/login/steps.py:389",
+   "refs": 1,
+   "row": "Jove"
+  },
+  "raceMinmatar": {
+   "first": "ui/station/base.py:339",
+   "refs": 3,
+   "row": "Minmatar"
+  }
+ },
+ "config.Units": {
+  "unitAttributeID": {
+   "first": "ui/shared/infosvc.py:2173",
+   "refs": 2,
+   "row": "AttributeID"
+  },
+  "unitAttributePoints": {
+   "first": "ui/shared/infosvc.py:2501",
+   "refs": 1,
+   "row": "AttributePoints"
+  },
+  "unitGroupID": {
+   "first": "ui/shared/infosvc.py:2161",
+   "refs": 2,
+   "row": "GroupID"
+  },
+  "unitInverseAbsolutePercent": {
+   "first": "ui/shared/infosvc.py:2485",
+   "refs": 1,
+   "row": "InverseAbsolutePercent"
+  },
+  "unitInversedModifierPercent": {
+   "first": "ui/shared/infosvc.py:2485",
+   "refs": 1,
+   "row": "InversedModifierPercent"
+  },
+  "unitMilliseconds": {
+   "first": "ui/shared/infosvc.py:2459",
+   "refs": 2,
+   "row": "Milliseconds"
+  },
+  "unitModifierPercent": {
+   "first": "ui/shared/infosvc.py:2489",
+   "refs": 1,
+   "row": "ModifierPercent"
+  },
+  "unitPercentage": {
+   "first": "ui/shared/infosvc.py:2493",
+   "refs": 1,
+   "row": "Percentage"
+  },
+  "unitSizeclass": {
+   "first": "ui/shared/infosvc.py:2169",
+   "refs": 2,
+   "row": "Sizeclass"
+  },
+  "unitTypeID": {
+   "first": "ui/shared/infosvc.py:2165",
+   "refs": 2,
+   "row": "TypeID"
+  }
+ }
+}

@@ -1,0 +1,6 @@
+# Only crates/, db/ and the Cargo manifests go into the image.
+*
+!Cargo.toml
+!Cargo.lock
+!crates/
+!db/

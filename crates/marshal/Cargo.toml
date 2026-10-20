@@ -1,0 +1,9 @@
+[package]
+name = "marshal"
+description = "blue.marshal codec of the EVE build-1000 client, reversed from blue.dll"
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+
+[dependencies]
+thiserror.workspace = true

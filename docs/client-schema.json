@@ -1,0 +1,313 @@
+{
+ "bptypes": {
+  "basePrice": [
+   "ui/station/facilities/facility.py:801"
+  ],
+  "blueprintTypeName": [
+   "sys/cfg.py:1389"
+  ],
+  "chanceOfReverseEngineering": [
+   "ui/station/facilities/facility.py:1443"
+  ],
+  "description": [
+   "ui/station/facilities/facility.py:795"
+  ],
+  "parentBlueprintTypeID": [
+   "ui/generic/listwindow.py:555"
+  ],
+  "productTypeID": [
+   "ui/generic/listwindow.py:559",
+   "ui/station/facilities/facility.py:1205",
+   "ui/uix.py:1081"
+  ],
+  "techLevel": [
+   "ui/station/facilities/facility.py:803"
+  ]
+ },
+ "categories": {
+  "categoryID": [
+   "sys/cfg.py:2215",
+   "ui/station/brokers/base_brokers.py:971",
+   "ui/station/brokers/base_brokers.py:987",
+   "ui/station/brokers/base_brokers.py:991"
+  ],
+  "categoryName": [
+   "sys/cfg.py:1395",
+   "sys/cfg.py:2203",
+   "sys/cfg.py:2215",
+   "ui/station/brokers/base_brokers.py:1089",
+   "ui/station/brokers/base_brokers.py:991"
+  ]
+ },
+ "dgmattribs": {
+  "attributeID": [
+   "ui/station/fitting/base_fitting.py:701",
+   "ui/station/fitting/base_fitting.py:707"
+  ],
+  "attributeName": [
+   "ui/shared/infosvc.py:2031",
+   "ui/shared/infosvc.py:2177",
+   "ui/station/fitting/base_fitting.py:699",
+   "ui/station/fitting/base_fitting.py:705",
+   "ui/station/market/marketentry.py:379"
+  ],
+  "defaultValue": [
+   "ui/shared/infosvc.py:2155"
+  ],
+  "displayName": [
+   "ui/shared/infosvc.py:2037",
+   "ui/shared/infosvc.py:2177",
+   "ui/shared/infosvc.py:2183",
+   "ui/shared/infosvc.py:2209",
+   "ui/station/fitting/base_fitting.py:707"
+  ],
+  "graphicID": [
+   "ui/shared/infosvc.py:2183",
+   "ui/station/fitting/base_fitting.py:707",
+   "ui/station/fitting/base_fitting.py:959",
+   "ui/uix.py:3089"
+  ],
+  "published": [
+   "ui/shared/infosvc.py:2151"
+  ],
+  "unitID": [
+   "ui/shared/infosvc.py:2037",
+   "ui/shared/infosvc.py:2159",
+   "ui/shared/infosvc.py:2161",
+   "ui/shared/infosvc.py:2165",
+   "ui/shared/infosvc.py:2169"
+  ]
+ },
+ "dgmeffects": {
+  "description": [
+   "environment/godma.py:1207",
+   "environment/godma.py:1325",
+   "ui/shared/infosvc.py:2291"
+  ],
+  "dischargeAttributeID": [
+   "environment/godma.py:1207",
+   "environment/godma.py:1325"
+  ],
+  "displayName": [
+   "ui/shared/infosvc.py:2291",
+   "ui/station/market/marketentry.py:337"
+  ],
+  "durationAttributeID": [
+   "environment/godma.py:1207",
+   "environment/godma.py:1325"
+  ],
+  "effectCategory": [
+   "environment/godma.py:1207",
+   "environment/godma.py:1325"
+  ],
+  "effectName": [
+   "environment/godma.py:1207",
+   "environment/godma.py:1325",
+   "ui/station/fitting/slot.py:345"
+  ],
+  "falloffAttributeID": [
+   "environment/godma.py:1207",
+   "environment/godma.py:1325"
+  ],
+  "graphicID": [
+   "environment/godma.py:1207",
+   "environment/godma.py:1325",
+   "ui/deco/item.py:307",
+   "ui/shared/infosvc.py:2291",
+   "ui/station/market/marketentry.py:337"
+  ],
+  "isOffensive": [
+   "environment/godma.py:1207",
+   "environment/godma.py:1325"
+  ],
+  "rangeAttributeID": [
+   "environment/godma.py:1207",
+   "environment/godma.py:1325"
+  ],
+  "trackingSpeedAttributeID": [
+   "environment/godma.py:1207",
+   "environment/godma.py:1325"
+  ]
+ },
+ "dgmtypeattribs": {
+  "attributeID": [
+   "environment/godma.py:1621",
+   "environment/godma.py:1691",
+   "environment/godma.py:1707",
+   "environment/godma.py:1719",
+   "ui/shared/infosvc.py:2129"
+  ],
+  "value": [
+   "environment/godma.py:1623",
+   "environment/godma.py:1699",
+   "environment/godma.py:1705",
+   "environment/godma.py:1721",
+   "ui/shared/infosvc.py:2129"
+  ]
+ },
+ "dgmtypeeffects": {
+  "effectID": [
+   "environment/godma.py:1197",
+   "ui/deco/item.py:303",
+   "ui/deco/item.py:305",
+   "ui/deco/item.py:311",
+   "ui/shared/infosvc.py:2519"
+  ],
+  "isDefault": [
+   "environment/godma.py:1195"
+  ]
+ },
+ "graphics": {
+  "explosionID": [
+   "environment/spaceObject/spaceObject.py:515"
+  ],
+  "graphicID": [
+   "sys/cfg.py:2323"
+  ],
+  "icon": [
+   "sys/cfg.py:2311",
+   "sys/cfg.py:2323",
+   "ui/uix.py:1155",
+   "ui/uix.py:1157",
+   "ui/uix.py:3061"
+  ],
+  "url3D": [
+   "environment/model/turret.py:487",
+   "environment/model/turret.py:65",
+   "environment/spaceObject/combatDrone.py:537",
+   "environment/spaceObject/combatDrone.py:595",
+   "environment/spaceObject/comet.py:101"
+  ]
+ },
+ "groups": {
+  "categoryID": [
+   "environment/godma.py:1657",
+   "sys/cfg.py:2121",
+   "sys/cfg.py:3059",
+   "ui/generic/listwindow.py:569",
+   "ui/generic/listwindow.py:577"
+  ],
+  "description": [
+   "sys/cfg.py:1393"
+  ],
+  "groupID": [
+   "sys/cfg.py:2177",
+   "ui/station/brokers/base_brokers.py:981",
+   "ui/station/brokers/base_brokers.py:985"
+  ],
+  "groupName": [
+   "sys/cfg.py:1391",
+   "sys/cfg.py:2161",
+   "sys/cfg.py:2177",
+   "ui/station/brokers/base_brokers.py:1095",
+   "ui/station/brokers/base_brokers.py:985"
+  ],
+  "parentID": [
+   "sys/cfg.py:2113"
+  ]
+ },
+ "locations": {
+  "locationID": [
+   "sys/cfg.py:2429",
+   "ui/shared/neocom/assetsinfo.py:683",
+   "ui/shared/neocom/assetsinfo.py:685",
+   "ui/shared/neocom/assetsinfo.py:687",
+   "ui/station/missions/base_missions.py:711"
+  ],
+  "locationName": [
+   "sys/cfg.py:1383",
+   "sys/cfg.py:2417",
+   "sys/cfg.py:2429",
+   "ui/shared/neocom/assetsinfo.py:683",
+   "ui/station/missions/base_missions.py:649"
+  ]
+ },
+ "messages": {
+  "messageText": [
+   "ui/station/facilities/facility.py:1535"
+  ]
+ },
+ "owners": {
+  "groupID": [
+   "sys/cfg.py:2381",
+   "sys/cfg.py:2397",
+   "ui/shared/neocom/charactersheet.py:573"
+  ],
+  "ownerID": [
+   "sys/cfg.py:2357",
+   "sys/cfg.py:2365",
+   "sys/cfg.py:2373"
+  ],
+  "ownerName": [
+   "sys/cfg.py:1379",
+   "sys/cfg.py:1381",
+   "sys/cfg.py:2341",
+   "sys/cfg.py:2357"
+  ],
+  "typeID": [
+   "sys/cfg.py:2345",
+   "sys/cfg.py:2389",
+   "ui/generic/userentry.py:441",
+   "ui/shared/infosvc.py:1525",
+   "ui/shared/infosvc.py:747"
+  ]
+ },
+ "types": {
+  "capacity": [
+   "environment/invCache.py:597",
+   "ui/inflight/shipmodulebutton.py:245",
+   "ui/inflight/shipmodulebutton.py:261"
+  ],
+  "chanceOfDuplicating": [
+   "ui/station/facilities/facility.py:1415"
+  ],
+  "description": [
+   "environment/godma.py:917",
+   "sys/cfg.py:1387",
+   "ui/shared/infosvc.py:813",
+   "ui/shared/infosvc.py:867",
+   "ui/station/market/base_market.py:1709"
+  ],
+  "graphicID": [
+   "environment/spaceObject/combatDrone.py:537",
+   "environment/spaceObject/comet.py:101",
+   "environment/spaceObject/entityShip.py:87",
+   "environment/spaceObject/missile.py:225",
+   "environment/spaceObject/missile.py:323"
+  ],
+  "groupID": [
+   "environment/godma.py:1737",
+   "environment/spaceObject/ship.py:291",
+   "environment/spaceObject/ship.py:301",
+   "parklife/envAudioMgr.py:141",
+   "sys/cfg.py:2133"
+  ],
+  "marketGroupID": [
+   "ui/station/market/base_market.py:607",
+   "ui/station/market/marketquote.py:215"
+  ],
+  "portionSize": [
+   "ui/shared/infosvc.py:1667",
+   "ui/shared/infosvc.py:1933"
+  ],
+  "typeID": [
+   "sys/cfg.py:2293",
+   "ui/station/brokers/base_brokers.py:975",
+   "ui/station/brokers/base_brokers.py:979"
+  ],
+  "typeName": [
+   "sys/cfg.py:1357",
+   "sys/cfg.py:1361",
+   "sys/cfg.py:1385",
+   "sys/cfg.py:2281",
+   "sys/cfg.py:2293"
+  ],
+  "volume": [
+   "environment/godma.py:543",
+   "environment/invCache.py:603",
+   "ui/deco/chargescontainer.py:185",
+   "ui/deco/chargescontainer.py:199",
+   "ui/deco/container.py:423"
+  ]
+ }
+}
